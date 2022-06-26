@@ -1,0 +1,250 @@
+PAC PC v2.00A Jan 1st 1997
+=============================
+
+Contents:
+
+ 1. System Requirements
+ 2. Running the Game
+ 3. Game Instructions
+ 4. Controls & Keys
+ 5. Soundcard Support  (* IMPORTANT )
+ 6. Video Mode Support (* IMPORTANT )
+ 7. Config Screen Options
+ 8. About the Game & Author
+ 9. Thanks
+10. Interesting Web Sites to visit.
+11. Release Histoty/What's New
+
+
+
+1. System Requirements
+----------------------
+
+386-33 with local bus video ( minimum )
+
+It is at its best running on a 486-33, or better, with local bus
+video ( VESA or PCI ).
+
+1 Meg of extended Memory ( if you want sound )
+Sound Blaster Pro, or compatible, soundcard.
+Multi-sync monitor for the full screen mode.
+                                            
+Note: This game won't run on a 286.
+
+Note: You will need 1 Meg of extended memory so make sure you have
+      HIMEM.SYS or someother XMS manager loaded in you config.sys.
+
+
+
+2. Running the Game
+-------------------
+
+At the DOS prompt type
+
+pacpc2
+    then hit enter
+
+or if you want to run the full screen mode and your monitor can
+take it ( READ SECTION 5 !!)  type
+
+pacpc2 f
+   then hit enter
+
+
+
+ 
+3. Game Instructions
+--------------------
+
+Eat the dots and avoid the ghosts, eat a flashing power pill then chase and 
+eat the ghosts. Also eat any fruit for extra points. That's about 
+all there is too it really. 
+
+Eating a '.' is worth 10 points, power pills 50 points. 
+Ghosts score 200,400,800,1600 eaten in order.
+
+Extra lives at 10000pts, 30000pts, 50000pts, 80000 pts
+then every 30000 after that.
+
+Fruit are worth various points.
+
+
+4. Controls & Keys
+------------------
+
+Arrow keys, or
+'A' - Up 
+'Z' - Down 
+'N' - Left 
+'M' - Right
+
+'P' - Pause
+'Q' - Sound On/Off
+
+
+On the title screens, press 
+
+'A' for info about the game,
+
+'J' to calibrate and use a joystick
+
+'C' to turn sound on/off, set full screen mode and to turn of
+    the FAST option. There was an upgrade for PacMan that made
+    her move about twice as fast as the ghosts, this gives the
+    same results. See section 7 for details.
+
+
+ESC - Quits current game or exits program
+
+
+5. Soundcard Support
+--------------------
+
+This game only supports Soundblaster Pro or better soundcards. It should work
+with compatibles but I haven't tested it with many.
+
+To allow sound in the game you need to set the DOS 'BLASTER' variable. 
+If you  have a soundblaster Pro, or better, this should already be in your
+autoexec.bat.
+
+If you don't set the blaster variable but have a SB-Pro  compatible card, 
+eg. Zeos integrated business audio using the ESS chip ( is that an obscure 
+soundcard or what?) you need to do the following at the DOS command prompt
+
+set blaster=A220 I5 D1 
+
+Where :
+A is the port your card uses, usually port 220.
+I is the interrupt the card uses, usually 5 but it could be 7.
+D is the DMA channel to use, usually 1 could be 3.
+
+The hardware addresses MUST match the settings of the card, or you
+will not get sound.
+
+There are immediate plans to support any other soundcards or the PC's 
+internal buzzer. However I like the look of these new Interwave based
+cards so I might get one of those and support it in the future.
+
+
+
+6. Video Mode Support
+---------------------
+
+This is really important !! 
+
+PacPC supports a full screen mode, this uses a vertical resolution of 288 
+pixels and horizontal resolution of 224 pixels, just like the old arcade 
+machine ! This mode only really works on 'newer' multi-sync monitors 
+( eg. CTX 1765/1545 ). 
+
+By default PacPC runs in a compatible mode, 320x200 pixels and the screen 
+scrolls up and down. To run in its full glory run with the command line 
+option F  ie.  PACPC2 F
+
+If your screen blanks or the picture goes crazy it probably means that your 
+monitor can't run the full screen mode, so just hit escape and run with the 
+compatible mode.
+
+Also you can configure the video mode from the 'Config' screen within PacPc. 
+Just hit 'C' on one of the title screens and look for the Video Mode
+options.
+        
+
+7. Config Screen Options
+------------------------------
+
+From the main title pressing 'C' takes you to the 'Config' screen
+here you can make Pac move double her speed, turn audio on/off and
+Change the video mode.
+
+Fast Pac
+'F' turns on/off the fast pac mode, here you move much faster
+than the ghosts.
+
+Number of Lives:
+'N' will change number of lives you can play with from 1 to 5.
+
+Begin Level:
+'B' changes the beginning level from 1 to 30. The game plays
+pretty much the same after level 21 with mazes 3 & 4 repeating
+with different colours. So you don't need to go higher than 29.
+Carry on pressing 'B' as after level 30 is goes back to 1.
+
+Joystick sensitivity:
+'T' changes the joystick sensitivity. This affects how the program
+detects movement of the joystick. Lower values mean smaller movements
+of the joystick detect a movement, higher values means the joystick
+is less sensitive.
+
+
+ 
+8. About the Game & Author
+--------------------------
+
+Welcome to release 2.00 of PacPc, after a lot of modifications from the
+first release
+
+I used the same basic 'engine' I wrote for MsPacPc and modified that to
+behave like the original arcade game, and well it's pretty close unless
+you really want to look for differences.
+
+Again it's all coded in C along with assembler routines for sound, sprites,
+screen updates etc.
+
+Please don't mail me asking for the source code as I will not be releasing
+any of it.
+
+This game is FREEWARE, you don't have to register/pay/contribute or whatever,
+it's free !! Now who said "There ain't no such thing as a free lunch...". 
+This game is 'as is' and comes with no warranty either specific or implied, 
+you are quite free to distribute it, copy it or eat it, whatever you want to 
+do. You should not, however, charge for it. Selling this game for profit, 
+rather than a valid duplication fee, will result in really bad Karma, and
+depending on your religious persuasion may result in eternal damnation,
+or at least a couple of centuries in purgatory.
+
+Since the last releases I've moved e-mail address, and the games should have
+a new permanent web page.
+
+If you have any comments you can reach me via internet e-mail at
+        jrokweb@san.rr.com
+
+
+9. Thanks
+---------
+
+Thanks must go to all those who've I've discussed the game with and 
+have done any sort of testing with it. These include, Kim Voegele,
+Lee Tonks, Marshall Stowe Sloane, Si Owen, Nadeem Ahktar, Kev
+Cheung, Dave Hallock plus anyone else I've forgotten (sorry!).
+BTW the cheat code is to type eggs <and press enter> during
+game play, f1,f2 & f3 do cheat things.
+
+
+10.Interesting Web Sites to visit.
+----------------------------------
+
+Yahoo's list of classic arcade game stuff
+http://www.yahoo.com/Recreation/Games/Video_Games/Classic_Arcade_Games/
+
+The Pac Page.
+http://www4.ncsu.edu/eos/users/m/msstowe/WWW/Pac-Man/pac-man.html
+
+Matt Cooley's Game World
+http://www4.ncsu.edu/unity/users/m/mvcooley/index.html
+
+
+The Home of PacPC games & PC*Bert
+
+http://www.jrok.com
+
+
+11. What's New/Release History
+------------------------------
+
+V2.0A 1/1/1997 - Minor bug fixe for audio and ghosts reverse direction
+                 correctly.
+
+V2.0  Dec 1996 - Major update from the v1.00 too many differences 
+                 to list.
+

@@ -1,0 +1,129 @@
+body{background-image:none;}
+
+/* MASTHEAD
+*******************************/
+#masthead{width:100%;margin:0 auto;}
+/* if we need to change bg images for the masthead, use sprite bg_masthead_v11_2.gif */
+#header,
+#searchbox,
+#quicknav,
+#quicknav a,
+#quicknav p,
+#platformlist,
+#masthead .mh_wrap{background-image:url(http://image.com.com/gamefaqs/images/default/bg_masthead_v11_2.gif);}
+/* .mh_wrap */
+#masthead .mh_wrap{width:900px;padding:0;}
+
+/* HEADER */
+#header,
+#header .mh_wrap{height:77px;}
+#logo{background:url(http://image.com.com/gamefaqs/images/default/logo_v11.gif) no-repeat 0 0;height:76px;}
+
+/* SEARCH */
+#searchbox .mh_wrap{height:28px;padding:4px 0 0;}
+#searchbox .name a{color:#fff;}
+#searchbox li.submit .submit{margin:0;}
+
+/* CROSS PROMO UNIT */
+.xpromolink,
+.rubics_netxp1_main{color:#fff;font:bold 11px/10px arial,helvetica,sans-serif;}
+.xpromositename{color:#c00;}
+
+/* QUICKNAV */
+#quicknav .mh_wrap{height:34px;}
+#quicknav p{background-repeat:no-repeat;margin:1px auto;padding:0 0 0 2px;}
+#quicknav a{height:32px;line-height:32px;}
+
+/* PLATFORM LIST */
+#platformlist{border-bottom:1px solid #6f6f6f;}
+#platformlist .mh_wrap{height:32px;}
+#platformlist div.jumper{padding:6px 0 0;}
+#platformlist form.jumper .submit{margin-top:-1px;}
+
+/* SITE FOOTER
+*******************************/
+#footer #sitenav{padding:0 110px 0 10px;}
+
+/* LAYOUT
+*******************************/
+#layout{width:900px;}
+#content,
+#footer{border:solid #999;border-width:0 1px;margin:0 -1px;}
+#content{border-top-width:1px;}
+#container{background:url(http://image.com.com/gamefaqs/images/default/bg_v11.gif) repeat-x center -176px;float:left;width:100%;}
+
+/* GUTTERS */
+.gutter{float:left;width:100%;}
+#gutters{background:url(http://image.com.com/gamefaqs/images/default/gutter_mid.gif) repeat-y center 0;}
+/* uncomment the following if we need to wrap the bottom of the layout with the rest of the dropshadow
+/*
+#gutter_btm{background:url(http://image.com.com/gamefaqs/images/default/gutter_btm.gif) no-repeat center bottom;padding:0 0 20px;}
+*/
+#gutter_top{background:url(http://image.com.com/gamefaqs/images/default/gutter_top.gif) no-repeat center 0;padding:14px 0 0;}
+
+/* GUTTERS ON PAGE W/ GIANT LEADER */
+.has_lead #gutter_top{background-position:center -15px;padding-top:0;}
+/* part of the gutter bg is in the ad giant because of they way it needs to fade into the shadow below the masthead */
+.has_lead .ad_giant,
+.has_lead .ad_super{background:url(http://image.com.com/gamefaqs/images/default/gutter_giant.gif) no-repeat center bottom;height:auto;width:100%;}
+
+/* GUTTERS ON SKINNED PAGE */
+.has_skin #container,
+.has_skin #gutters,
+.has_skin #gutter_top,
+.has_skin .ad_giant,
+.has_skin .ad_super{background-image:none;}
+
+/* COLUMN LAYOUTS */
+.col_layout{padding:0 10px;}
+
+/* MPU LAYOUT */
+#mpu_col_wrap{background-position:right 0;}
+#mpu_col_wrap .col_layout{padding:0 324px 0 10px;}
+#mpu_col_wrap #side_col{margin:0 -324px 0 10px;}
+
+/* SKY LAYOUT */
+#sky_col_wrap{background-image:none;}
+#sky_col_wrap .col_layout{padding:0 180px 0 10px;}
+#sky_col_wrap #side_col{padding:0;margin:0 -170px 0 10px;background-image:none;}
+
+/* GENERAL STYLES
+*******************************/
+/* BUTTONS */
+input.go,
+span.go,
+.btn,
+.btn .btn_wrap{background-image:url(http://image.com.com/gamefaqs/images/default/btn_v11.gif);height:21px;}
+.btn,
+.btn button,
+.btn input,
+.btn span{color:#333;line-height:21px;}
+
+/* TABLES */
+/* table elements */
+#content thead th,
+#content tr.head th{background:#6564ff;}
+
+/* POD STYLES
+*******************************/
+/* POD HEADERS */
+#content .pod div.head{background:#6564ff;border:1px solid #4a49c0;color:#fff;line-height:16px;padding:6px 10px;}
+#content .pod div.head h1,
+#content .pod div.head .title{background:none;font-size:14px;color:#fff;padding:0;}
+
+/* OTHER CONTENT
+*******************************/
+/* CROSS GAMESITES CONTENT -- .gs may be a part of some pods or a html element around a pod */
+#content .gs div.head{background:#ccc;color:#202020;border:0;}
+#content .gs div.head h1,
+#content .gs div.head .title{color:#202020;}
+#content .gs li.feature{font-size:12px;}
+
+/* TOP TEN
+*******************************/
+#main_col .topten .pod1{padding-right:5px;}
+#main_col .topten .pod2{padding-left:5px;}
+
+/* BOARDS
+*******************************/
+.searchtopics .btn{margin-top:2px;}

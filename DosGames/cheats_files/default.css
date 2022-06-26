@@ -1,0 +1,848 @@
+a{color:#03c;font-weight:bold;text-decoration:none;}
+a:hover{text-decoration:underline;}
+body{background:#dcdcdc url(http://image.com.com/gamefaqs/images/default/bg.gif) repeat-y top center;color:#333;margin:0;}
+body,button,input,select,textarea{font:11px arial,helvetica,sans-serif;}
+textarea{font-size:12px;width:80%;}
+div,form,fieldset{display:block;}
+button,div,fieldset,form,iframe{margin:0;padding:0;}
+button{line-height:1;}
+legend{display:none;}
+fieldset,img{border-width:0;}
+p{margin:0 0 10px;}
+input:focus,
+button:focus{outline:0;}
+
+.clear{clear:both;}
+.site_tracking{height:0;width:0;position:absolute;top:0;left:0;overflow:hidden;}
+
+/* MASTHEAD
+*******************************/
+#masthead{height:176px;width:760px;margin:0 auto;}
+#header,
+#searchbox,
+#quicknav,
+#quicknav a,
+#platformlist,
+#masthead .mh_wrap{background:#dfdfdf url(http://image.com.com/gamefaqs/images/default/bg_masthead_v10_2.gif) repeat-x right 0;}
+/* .mh_wrap -- used to contain masthead elements to specified with and allow the rest of the masthead to span across width */
+#masthead .mh_wrap{width:740px;margin:0 auto;padding:0 10px;overflow:hidden;}
+#masthead input{vertical-align:top;}
+#masthead select{height:18px;vertical-align:top;}
+
+/* HEADER */
+#header,
+#header .mh_wrap{background-color:#6564ff;background-position:0 -50px;height:79px;}
+#logo{background:url(http://image.com.com/gamefaqs/images/default/logo_2.gif) no-repeat 0 center;float:left;}
+#logo a{float:left;height:0;overflow:hidden;padding:77px 0 0;width:314px;}
+
+/* LOGIN */
+#loginbox{background:url(http://image.com.com/gamefaqs/images/default/loginbox_bg.gif) no-repeat 0px 8px;color:#fff;float:right;font-size:11px;height:60px;padding-top:8px;width:310px;}
+#loginbox .msg{font-weight:bold;margin:0 0 5px 15px;padding:13px 0 0;}
+#loginbox .nav{margin-left:15px;}
+#loginbox .nav a{border-right:1px solid #7776eb;color:#d9f3f8;display:block;float:left;font-weight:normal;line-height:11px;margin-right:6px;padding-right:5px;}
+#loginbox .nav a.last{border:none;}
+#loginbox .nav a b{font-weight:normal;}
+#loginbox form{color:#fff;padding:5px 10px 0;}
+#loginbox form a{font-weight:normal;color:#d9f3f8;}
+#loginbox form input{background:none;border:0;margin:0;padding:0;}
+#loginbox form label{float:left;height:15px;margin:-15px 0 0;position:relative;}
+#loginbox span.data{background:#fff;border:2px inset #333;display:block;padding:1px;height:14px;overflow:hidden;}
+#loginbox span.data input{width:100%;}
+#loginbox span.submit{border:1px solid #3331b8;display:block;height:22px;width:48px;}
+#loginbox span.submit span{display:block;background:#ced0ff;border:1px solid;border-color:#efeffe #d7d7fd #d7d7fd #efeffe;overflow:hidden;}
+#loginbox span.submit input{color:#666;font-weight:bold;height:20px;width:100%;text-align:center;}
+#loginbox ol.fields{height:auto;width:100%;white-space:nowrap;}
+#loginbox li.field{height:20px;overflow:hidden;margin:0 5px 0 0;padding:15px 0 0;}
+#loginbox li.email{width:115px;}
+#loginbox li.password{width:95px;}
+#loginbox li.submit{height:24px;margin:0;padding:13px 0 0;width:50px;}
+#loginbox li.submit input{cursor:pointer;}
+
+/* SEARCH */
+#searchbox{color:#666;font-size:11px;font-weight:bold;line-height:24px;}
+#searchbox,
+#searchbox .mh_wrap{background-position:0 -200px;}
+#searchbox .mh_wrap{height:27px;padding:5px 0 0;}
+#searchbox form{display:inline;float:left;height:27px;width:450px;white-space:nowrap;overflow:hidden;}
+#searchbox select{width:130px;}
+#searchbox .name{float:left;line-height:20px;margin:0 5px 0 0;}
+#searchbox .data{float:left;background:#fff;border:1px solid #919191;height:14px;padding:2px;overflow:hidden;}
+#searchbox ol.fields{height:auto;width:100%;}
+#searchbox li.field{height:22px;line-height:20px;margin:0 5px 0 0;padding:2px 0 0;width:auto;white-space:nowrap;}
+#searchbox li.submit{margin:0;}
+#searchbox li.search_term .data{width:212px;height:16px;padding:2px 3px 0;}
+#searchbox li.search_term input{border:0;height:16px;margin:0;padding:0;width:100%;}
+#searchbox li.submit .submit{margin:-2px 0 0;position:relative;}
+
+/* CROSS PROMO UNIT */
+.xpromolink{color:#7f7e7e;font-weight:normal;}
+.xpromositename{color:#ff0000;}
+.rubics_netxp1_main{color:#7f7e7e;float:right;font:bold 10px/10px tahoma,geneva,sans-serif;padding:7px 5px 0;text-align:right;white-space:nowrap;}
+
+/* QUICK NAV -- Primary Nav */
+#quicknav,
+#quicknav .mh_wrap{background-position:0 -250px;padding:0;width:100%;}
+#quicknav .mh_wrap{height:31px;}
+#quicknav p{float:left;margin:0 0 0 5px;padding:2px 0 1px;overflow:hidden;}
+#quicknav a{background-repeat:no-repeat;color:#036;display:block;float:left;font-size:12px;line-height:28px;height:28px;padding:0 12px 0 10px;}
+
+/* PLATFORM LIST */
+#platformlist{color:#036;font-size:11px;line-height:14px;width:100%;}
+#platformlist,
+#platformlist .mh_wrap{background-position:0 -300px;}
+#platformlist .mh_wrap{height:34px;}
+#platformlist .nav{float:left;padding:10px 0 0 5px;}
+#platformlist .nav a{margin:0 2px;}
+#platformlist .nav b{color:#666;}
+#platformlist div.jumper{display:inline;float:right;line-height:24px;width:160px;padding:8px 0 0;overflow:hidden;}
+#platformlist form.jumper{display:inline;float:right;width:120px;padding:0 40px 0 0;}
+#platformlist form.jumper select{float:left;width:120px;}
+#platformlist form.jumper .submit{float:right;margin:-3px -35px 0 5px;position:relative;}
+/* js_jumper */
+#platformlist .js form.jumper{padding:0 5px 0 0;}
+#platformlist .js form.jumper .submit{display:none;}
+
+/* SITE FOOTER
+*******************************/
+#footer{background:#dfdfdf url(http://image.com.com/gamefaqs/images/default/footer_bg.gif) no-repeat 0px 0px;display:inline;float:left;font:9px/16px tahoma,arial,helvetica,sans-serif;padding:0;text-align:center;width:100%;}
+#footer a{font-weight:bold;}
+#footer p{margin:0;}
+#footer .nav{margin:0 10px;}
+#footer #sitenav{background-color:#868278;line-height:21px;margin:0 0 0 100px;padding:0 10px;}
+#footer #sitenav a{color:#dfdfdf;}
+#footer #sitenav a:hover{color:#fff;}
+#footer #broadnav{color:#03c;}
+#footer #todayoncnet{margin-bottom:10px;}
+#cnetfooter,
+#cnetfooter a,
+#todayoncnet,
+#todayoncnet a{color:#868278;}
+#cnetfooter{text-align:left;padding-bottom:3px;float:left;}
+#aboutcnet{padding-top:5px;}
+#copyright{font:9px tahoma,arial,helvetica,sans-serif; padding:5px 0 5px 10px; text-align:left; background:#fff; clear:both; border-top:1px solid #999;float:left; width:750px;}
+
+/* CBS FOOTER */
+#cbsi_f{font-size: 10px;text-align: left;padding-top:10px;border-top:1px solid #666;}
+#cbsi_f form{float: right;text-align: right;}
+#cbsi_f select,
+#cbsi_footer input{border:1px solid #ccc;margin-left:2px;padding:2px;font-size:9px;}
+#cbsi_f label{display:block;font-size:95%;margin-bottom:2px;}
+#cbsi_f_pop{margin-bottom: 8px;}
+
+/* LAYOUT
+*******************************/
+#container{}
+#content{background:#fff;}
+#layout{margin:0 auto;width:760px;}
+
+/* COLUMN WRAPPERS */
+#content{width:100%;}
+#content,
+#full_col_wrap,
+#mpu_col_wrap,
+#sky_col_wrap,
+#content .col{display:inline;float:left;}
+
+/* COLUMNS */
+.col{margin:0;padding:0;}
+#content #main_col{width:100%;}
+#content #side_col{background:url(http://image.com.com/gamefaqs/images/default/layout_bg_col_top.gif) no-repeat 0 0;float:right;padding:6px 6px 0;}
+
+/* COLUMN LAYOUTS */
+.col_layout{padding:0 6px;}
+#full_col_wrap,
+#mpu_col_wrap,
+#sky_col_wrap{margin:5px 0 0;padding:0 0 10px;width:100%;}
+#mpu_col_wrap,
+#sky_col_wrap{background:url(http://image.com.com/gamefaqs/images/default/layout_bg.gif) repeat-y -362px 0;}
+
+/* MPU LAYOUT */
+#mpu_col_wrap .col_layout{padding:0 320px 0 6px;}
+#mpu_col_wrap #side_col{width:302px;margin:0 -320px 0 6px;}
+
+/* SKY LAYOUT */
+#sky_col_wrap{background-position:-220px 0;}
+#sky_col_wrap .col_layout{padding:0 178px 0 6px;}
+#sky_col_wrap #side_col{width:160px;margin:0 -178px 0 6px;background-position:-314px 0;}
+
+/* SPONSORED LINKS */
+#content #sponsored_links{margin:10px 0 20px;padding:0;}
+#content #sponsored_links iframe{background:none;border:0;vertical-align:top;}
+
+/* ADS
+*******************************/
+.ad,
+.ad .ad_wrap{text-align:center;margin:0 auto;}
+.ad_default{height:0;width:0;margin:0;padding:0;overflow:hidden;}
+#content .ad table{table-layout:auto;}
+.ad_leader,
+.ad_mpu,
+.ad_tower{padding:0 0 10px;}
+.ad_leader{width:100%;}
+.has_lead .ad_giant .ad_wrap,
+.has_lead .ad_glead_takeover .ad_wrap,
+.has_lead .ad_super .ad_wrap{margin:0 auto;padding:5px 0 10px;}
+
+/* GENERAL STYLES
+*******************************/
+.error,
+.updated{color:#f00;}
+
+.larger{font-size:18px;}
+.large{font-size:14px;}
+.medium{font-size:12px;}
+.small{font-size:11px;}
+.smaller{font-size:10px;}
+
+/* IMAGES */
+img.absbottom{vertical-align:bottom;}
+img.genredot{position:relative;top:1px;margin-right:5px;}
+img.oversize{width:540px;}
+
+/* FORM BUTTONS */
+input.go,
+span.go,
+.btn,
+.btn .btn_wrap{background:url(http://image.com.com/gamefaqs/images/default/btn_v10.gif) no-repeat 0 0;height:24px;overflow:hidden;}
+.btn,
+.btn button,
+.btn input,
+.btn span{color:#333;font:bold 11px/24px arial,helvetica,sans-serif;cursor:pointer;}
+/* .btn can stretch up to 210px -- why would you make a button longer this */
+.btn,
+.btn .btn_wrap{float:left;text-align:center;}
+.btn{background-position:0 -50px;margin:0;padding:0;position:relative;}
+.btn .btn_wrap{background-position:right -100px;margin:0 0 0 8px;padding:0 8px 0 0;}
+.btn button,
+.btn input{background:none;border:none;color:#333;font-size:11px;font-weight:bold;height:100%;line-height:24px;margin:0;padding:0;text-align:center;width:100%;overflow:hidden;}
+.btn button span{position:absolute;top:0;left:0;height:100%;width:100%;}
+/* BUTTONS -- GO (is only 30px wide) */
+input.go,
+span.go{border:0;text-align:center;width:30px;}
+span.go{position:relative;}
+
+/* FORMS */
+form ol.fields{list-style:none;margin:0;padding:0;height:1%;overflow:hidden;}
+form li.field{float:left;width:100%;}
+
+/* FORMS -- POLL */
+form.poll li.submit{margin:10px 0 0;line-height:32px;}
+form.poll li.submit a{float:left;font-weight:normal;}
+form.poll li.submit input{float:left;vertical-align:middle;margin:0 10px 0 3px;}
+form.poll input.radio{position:relative;top:3px;}
+
+/* HEADERS -- H1 - H6 */
+h1{font-size:22px;}
+h2{font-size:18px;}
+h3{font-size:14px;}
+h4,h5,h6{font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;margin:0 0 10px;}
+/* headers -- .head */
+.head h1{font-size:22px;margin:0;padding:0;}
+#content .head{border-bottom:1px solid #ccc;color:#333;margin:10px 10px 0;padding:0;}
+#main_col .head{margin-bottom:10px;}
+/* header anchors */
+h1 a,
+h2 a{color:#333;}
+/* header anchors -- .head */
+.head h1 a:hover{color:#666;text-decoration:none;}
+
+
+/* GENERAL CONTENT */
+.crumbs{font-size:10px;margin:5px 10px;}
+#content ul{margin:10px 0 10px 10px;padding-left:10px;}
+#content ul ul{margin:0 0 0 10px;}
+#content .body{padding:0 4px;margin-bottom:10px;}
+#content .foot{text-align:center;padding:10px 8px;}
+a.up{color:#58e;}
+a.can{color:#999;}
+/* TABLES */
+/* column styles */
+col.author{width:130px;}
+col.company{width:170px;}
+col.count{width:30px;}
+col.country{width:40px;}
+col.game{width:150px;}
+col.date{width:55px;}
+col.days{width:86px;}
+col.rank{width:35px;}
+col.size{width:40px;}
+col.score{width:45px;}
+col.title{width:auto;}
+col.type{width:auto;}
+col.system{width:110px;}
+col.system_short{width:50px;}
+col.version{width:50px;}
+col.faqs{width:36px;}
+col.codes{width:44px;}
+col.saves{width:41px;}
+col.reviews{width:54px;}
+col.board{width:42px;}
+
+/* table elements */
+table{border-collapse:collapse;empty-cells:show;table-layout:fixed;width:100%;}
+td,
+th{padding:3px 5px;vertical-align:top;}
+tbody.even td,
+tbody.even th,
+tr.even td,
+tr.even th{background:#eee;}
+#content thead th,
+#content tr.head th{background:#636ab6;color:#fff;font-size:11px;text-align:left;padding:2px 5px;}
+
+/* TABLE -- CONTRIBUTIONS */
+table.contrib{border-collapse:separate;}
+
+/* TABLE -- CREDITS */
+table.credits{border-collapse:separate;font-size:12px;}
+table.credits col.title{width:160px;}
+table.credits td{font-weight:bold;}
+table.credits th{font-weight:normal;text-align:right;}
+
+/* TABLE -- POLLS */
+table.poll col.question{width:auto;}
+table.poll col.percent{width:50px;}
+table.poll col.bar{width:160px;}
+table.poll col.votes{width:50px;}
+table.poll th{padding-left:0;text-align:left;}
+table.poll div.bar{background:#00f;float:left;text-align:right;height:20px;}
+
+/* TABLE -- RELEASES */
+table.release{border-collapse:separate;table-layout:auto;}
+table.release a{font-size:12px;}
+table.release col.company{width:30%;}
+table.release col.date,
+table.release col.id,
+table.release col.price{width:1%;}
+table.release td,
+table.release th{vertical-align:middle;}
+table.release th{font-size:12px;font-weight:normal;text-align:left;}
+.pod table.release thead{display:none;}
+
+/* TABLE -- RATINGS */
+table.ratings td,
+table.ratings th{text-align:center;}
+table.ratings .score{font-size:40px;}
+
+/* TABLE -- BRACKETS */
+table.bracket{border:1px solid #000;font-size:10px;margin:1px;}
+table.bracket td{border:1px solid #000;vertical-align:middle;}
+table.bracket td.divh{background: #ddd;font-size:12px;font-weight:bold;}
+table.bracket .win{background: #8f8;}
+table.bracket .lose{background: #f88;}
+table.bracket .part{background: #ff8;}
+
+/* TABLE -- DOWNLOADS */
+#side_col table.downloads{border-collapse:collapse;width:100%;}
+#side_col table.downloads col.type{width:40px;}
+#side_col table.downloads col.file{width:auto;}
+#side_col table.downloads col.size{width:50px;}
+#side_col table.downloads td{background:url(http://image.com.com/gamefaqs/images/default/dot.gif) repeat-x bottom left;padding:5px 0;}
+
+/* TABLE -- HELP */
+#content .help table{table-layout:auto;}
+#content .help td{padding:1px;}
+
+/* LISTS -- SYSTEMS */
+#content ul.systems{list-style:none;margin:0;padding:0;}
+#content ul.systems li{margin:0;padding:3px 5px;}
+#content ul.systems li.even{background:#eee;}
+
+/* LISTS -- CHEATS */
+#content ul.cheats{height:1%;list-style:none;overflow:hidden;margin:0;padding:0;}
+#content ul.cheats li.cheat{background:url(http://image.com.com/gamefaqs/images/default/dot.gif) repeat-x 0 bottom;float:left;font-size:12px;padding:0 0 1px;width:100%;}
+#content ul.cheats li.last{background-image:none;padding:0;}
+#content li.cheat,
+#content li.cheat h3,
+#content li.cheat h4{font-size:12px;margin:0;}
+#content li.cheat .details{padding:8px;}
+#content li.cheat .details p.contrib{font-size:11px;}
+#content li.cheat col.name{width:30%;}
+#content li.cheat col.desc{width:70%;}
+#content li.cheat table{margin-bottom:5px;table-layout:auto;}
+
+/* HUB NAV -- *****DEPRECATED***** */
+#content .hub_nav{height:1%;overflow:hidden;padding:0 10px;margin:10px 0;}
+#content .hub_nav h1{border:none;font-size:11px;margin:0;padding:0;line-height:normal;}
+#content .hub_nav .box_tl{background:url(http://image.com.com/gamefaqs/images/default/hub_nav_bg.gif) no-repeat top left;}
+#content .hub_nav .box_tr{background:url(http://image.com.com/gamefaqs/images/default/hub_nav_bg.gif) no-repeat top right;padding-top:12px;}
+#content .hub_nav .box_bl{background:url(http://image.com.com/gamefaqs/images/default/hub_nav_foot.gif) no-repeat bottom left;padding-left:8px;}
+#content .hub_nav .box_br{background:url(http://image.com.com/gamefaqs/images/default/hub_nav_foot.gif) no-repeat bottom right;padding-right:8px;}
+#content .hub_nav .box_br .box_body{padding-bottom:12px;font-size:12px;}
+#content .hub_nav .box_br .alpha{font-size:14px;margin:5px 0;}
+#content .hub_nav .genre{border-top:1px solid #ccc;margin:0 0 20px;padding-top:5px;}
+
+/* CONTENT FILTERS */
+.content_filter{height:1%;overflow:hidden;padding:0 10px;margin:10px 0;}
+.content_filter .wrap{background:url(http://image.com.com/gamefaqs/images/default/content_filter.gif) no-repeat 0 0;}
+.content_filter .w1{background-position:right 0;padding:12px 0 0;}
+.content_filter .w2{background-position:0 bottom;}
+.content_filter .w3{background-position:right bottom;padding:0 0 12px;}
+#content .content_filter .body{font-size:12px;margin:0;padding:0 8px;}
+.content_filter .alpha{font-size:14px;margin:5px 0;}
+.content_filter .genre{border-top:1px solid #ccc;margin:0 0 20px;padding-top:5px;}
+.content_filter .type{font-size:11px;font-weight:bold;}
+
+/* CONTENT NAV */
+div.content_nav{background:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_bg.gif) repeat-x bottom left;margin:0 0 5px;padding:0 5px;height:1%;overflow:hidden;}
+div.content_nav h1{font-size:18px;margin:10px 5px;}
+div.content_nav .crumbs{margin:5px;padding:0;}
+#content ul.content_nav{list-style:none;margin:0;padding:0;width:100%;overflow:hidden;}
+ul.content_nav li{background:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_bg.gif) no-repeat top left;float:left;}
+ul.content_nav li .new{background:url(http://image.com.com/gamespot/shared/mini_new.gif) right 4px no-repeat; display:block;}
+ul.content_nav li a{background:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_bg.gif) no-repeat top right;color:#036;display:block;float:left;}
+ul.content_nav li a:hover,
+ul.content_nav li.hi a:hover{color:#930;text-decoration:none;}
+ul.content_nav li a b{display:block;line-height:36px;height:36px;padding:0 10px 0 11px;float:left;cursor:pointer;}
+ul.content_nav a b.first{background:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_l_bg.gif) no-repeat top left;padding:0 10px;}
+ul.content_nav a b.last{background:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_r_bg.gif) no-repeat top right;padding:0 10px;}
+ul.content_nav li.hi,
+ul.content_nav li.hi a{background-image:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_hi_bg.gif);}
+ul.content_nav li.hi a{color:#081329}
+ul.content_nav li.hi a.last{background-image:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_hi_r_bg.gif);}
+ul.content_nav li.hi a b.first{background-image:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_hi_l_bg.gif);}
+ul.content_nav li.hi a b.last{background-image:url(http://image.com.com/gamefaqs/images/default/gamespace_nav_tab_hi_r_bg.gif);}
+
+/* POD STYLES
+*******************************/
+.pod{height:1%;margin:0 0 10px;padding:0;overflow:hidden;}
+.pod .pod{margin:10px 0;}
+
+/* POD BODY */
+#content .pod .body{padding:0;margin:0;height:1%;overflow:hidden;}
+/* POD BODY -- side */
+#side_col .pod{background:url(http://image.com.com/gamefaqs/images/default/side_pod_bottom.gif) no-repeat bottom left;padding:0 0 8px 0;width:100%;}
+#side_col .pod .body,
+#side_col .pod .foot{background:#fff;border:0 solid #999;border-width:0 1px;padding:0 8px;}
+#side_col .pod .body h2,
+#side_col .pod .body h3{font-size:14px;margin:5px 0;}
+
+/* POD FOOTERS */
+#content .pod .foot{padding-top:10px;height:1%;overflow:hidden;text-align:center;}
+#side_col .pod .foot{padding:8px 8px 0;}
+
+/* POD HEADERS */
+#content .pod .head,
+#content .pod .head h1, /* <-- deprecated in favor of .title which is more flexible for other header levels */
+#content .pod .head .title{background:#fff url(http://image.com.com/gamefaqs/images/default/head_bg.gif) no-repeat top left;border:none;color:#fff;font-size:11px;margin:0;padding:0 0 0 10px;}
+
+#content .pod .head h1, /* <-- deprecated in favor of .title which is more flexible for other header levels */
+#content .pod .head .title{background-position:top right;margin:0;padding:5px 10px 3px 0;}
+#content .pod .head a{color:#fff;}
+#content .pod .head a:hover{text-decoration:underline;}
+#content .gs .head,
+#content .gs .head .title,
+#side_col .pod .head,
+#side_col .pod .head h1, /* <-- deprecated in favor of .title which is more flexible for other header levels */
+#side_col .pod .head .title{background-image:url(http://image.com.com/gamefaqs/images/default/head_bg_lite.gif);color:#333;}
+#content .gs .head a,
+#side_col .pod .head a{color:#333;}
+#side_col .pod .head,
+#side_col .pod .head h1, /* <-- deprecated in favor of .title which is more flexible for other header levels */
+#side_col .pod .head .title{background-color:#f0f0f0;}
+
+/* POD -- Details */
+#content .pod .body .details{padding:8px 8px 4px;}
+#content .pod .body .details p{margin:0 0 4px 0;}
+#content .pod .body .items .details{padding:0;}
+#content .pod .body .items .details p{margin:0;}
+
+/* POD -- Lists */
+#content .pod ul.title_data{list-style:none;margin:0;}
+#content .pod ul.title_data li{margin:0 0 4px;}
+#content .pod ul.title_data .label{margin-right:3px;}
+#content .pod ul.title_data .data,
+#content .pod ul.title_data .data a{font-weight:bold;}
+
+#side_col .pod ul.items{list-style:none;margin:0;padding:0;height:1%;overflow:hidden;}
+#side_col .pod ul.items li{background:url(http://image.com.com/gamefaqs/images/default/dot.gif) repeat-x bottom left;float:left;padding:5px 0 6px 0;width:100%;}
+#side_col .pod ul.items h2,
+#side_col .pod ul.items h3,
+#side_col .pod ul.items p{font-size:11px;margin:0;}
+#side_col .pod ul.items img{float:right;padding-left:5px;margin-bottom:5px;width:70px;}
+
+/* The following "POD -- " styles must come after the above "POD" styles */
+/* POD -- CONTRIB */
+#content .contrib .body{background:#eee;font-size:12px;padding:10px;}
+#content .contrib .body h2{color:#03c;margin:0;}
+
+/* POD -- REVIEW */
+#content .review .body{font-size:12px;}
+#content .review .details h3{font-size:12px;margin:0 0 10px 0;}
+#content .review .details p{margin:10px 0;}
+
+/* OTHER CONTENT
+*******************************/
+/* CROSS GAMESITES CONTENT -- .gs may be a part of some pods or a html element around a pod */
+#content .gs a{color:#930;}
+#content .gs a:hover{color:#c60;text-decoration:underline;}
+#content .gs ul.features{height:1%;overflow:hidden;margin:0;padding:0 8px;}
+#content .gs li.feature{background:url(http://image.com.com/gamefaqs/images/default/dot.gif) repeat-x bottom left;display:inline;float:left;font-size:11px;margin:0;padding:8px 0 9px;width:100%;}
+#content .gs li.has_thumb .wrap{padding:0 0 0 150px;}
+#content .gs li.has_thumb .thumb{float:left;display:inline;margin:0 10px 0 -150px;width:140px;}
+#content .gs li.feature h3,
+#content .gs li.feature p{float:right;width:100%;margin:0;}
+
+#main_col .gs{margin:10px 0;height:1%;overflow:hidden;}
+#main_col .gs .body,
+#main_col .gs .body h3{font-size:12px;}
+#main_col .gs .body h3{margin:0;}
+#main_col .gs .body .item{background:url(http://image.com.com/gamefaqs/images/default/dot.gif) repeat-x bottom left;padding:8px 0 9px;}
+#main_col .gs .body .item .details{padding:0;}
+#main_col .gs .body .last{background:none;}
+#main_col .gs .foot{padding:8px 0;}
+/* CROSS GAMESITES CONTENT -- FEATURES */
+#main_col .features .pod{background-color:#eee;margin:0;}
+
+/* TODAY
+*******************************/
+#main_col .today{height:1%;padding:10px 7px 0;margin-bottom:20px;overflow:hidden;}
+#main_col .today .head{border-bottom-color:#a4a4a4;margin:0 0 10px 0;width:100%;overflow:hidden;}
+#main_col .today .head h1{border:none;color:#666;float:left;font-size:18px;margin:0;}
+#main_col .today .head .date{color:#930;float:right;margin-top:6px;}
+#main_col .today .body{padding:0}
+
+/* TOP TEN
+*******************************/
+#main_col .topten{margin-bottom:10px;padding:0;height:1%;overflow:hidden;}
+#main_col .topten .pod_wrap{float:left;width:50%;}
+#main_col .topten .pod{margin:0;padding:0;}
+#main_col .topten .pod1{padding-right:3px;}
+#main_col .topten .pod2{padding-left:3px;}
+#main_col .topten .pod .head{text-transform:capitalize;}
+#main_col .topten .pod .head a{color:#fff;}
+#main_col .topten .pod .body{font-size:12px;}
+#main_col .topten ol{list-style:none;margin:0;padding:0;}
+#main_col .topten ol li{margin:0;padding:5px;}
+#main_col .topten ol li a{margin-left:3px;}
+#main_col .topten ol li.alt{background:#eee;}
+#main_col .topten .pod .foot{padding:10px 0;}
+
+/* RELEASES
+*******************************/
+#content ul.releases{display:inline;float:left;list-style:none;margin:0;padding:0;width:100%;}
+#content .releases li.region{display:inline;float:left;width:33%;margin:0 0 0 0.4%;}
+#content .releases li.recent{display:inline;float:left;width:49%;margin:0 0 0 0.4%;}
+#content .releases li.first{margin:0;}
+#content .releases col.date{width:35px;}
+.releases li.region .region{color:#666;font-size:14px;padding:5px;margin:0;}
+#content .releases td{background:#eee;}
+#content .releases td a{font-weight:bold;}
+#content .releases tr.even td{background:none;}
+
+/* GAMESPACE
+*******************************/
+.game_summary img.boxshot{float:left;padding:0 6px 0 0;}
+
+.game_imgs .body .title{font-size:18px;margin:10px;}
+.game_imgs .body .caption{font-size:12px;margin:0 0 10px;}
+.game_imgs .body .contrib{margin:5px 0;}
+#content .game_imgs .foot{padding:0;}
+
+/* GAMESPACE WIKIA */
+.wikia_logo{float:right;}
+.wiki_header{margin:0; padding:0; font-size:12px; font-weight:bold;}
+#wiki_search{background:url(http://image.com.com/gamespot/shared/gamefaqs/wikia/search_wide_bg.gif) no-repeat scroll; margin:5px 0 0; padding:7px 5px 5px; height:27px; width:auto;}
+#wiki_search #search{float:left; width:88%; margin:2px; padding:0;}
+#wiki_search .btn a b{background-color:#B2B2B2;}
+
+
+/* QNA
+*******************************/
+/* QNA HUB LAYOUT */
+#content .qna_hub{background:none;}
+#content #mpu_col_wrap.qna_hub .col_layout{padding:0 314px 0 6px;}
+/* QNA HUB LAYOUT -- SIDE COLUMN */
+#content .qna_hub #side_col{background:none;margin:0 -314px 0 0;}
+#content .qna_hub #side_col a{color:#403EAB;}
+#content .qna_hub #side_col .header{background: #fff url(http://image.com.com/gamefaqs/images/default/head_qna_gradient.gif) top left repeat-x; border:1px solid #D5D5D5; height:1%; overflow:hidden;}
+#content .qna_hub #side_col .header h2,
+#content .qna_hub #side_col .header h3{font-size:14px; float:left; margin:0;padding:8px; }
+#content .qna_hub #side_col .header h3{}
+#content .qna_hub #side_col ul{margin:0 0 4px 0; padding:0;}
+#content .qna_hub #side_col li{list-style-type:none; padding:5px 10px; font-size:12px;}
+#content .qna_hub #side_col li .console{font-size:11px; color:#666;}
+#content .qna_hub #side_col li.alt{background:#eee;padding:5px 10px;}
+
+#content .qna .body .details{padding-bottom:0;}
+#content .qna .view_all{font-size:14px;}
+#content .qna .view_all a{color:#403eab;}
+#content .qna .body .details p.view_all{margin:10px 0 0;}
+
+#content .content_qna{height:1%;overflow:hidden;margin:0 0 10px;padding:0;}
+#content .content_qna a{color:#403eab;}
+#content .content_qna .module{background: #F0F0F0; border: 1px solid #bfbfbf; margin:10px 5px; padding:10px 7px 7px;}
+
+#content .content_qna h1,
+#content .content_qna h2,
+#content .content_qna h3,
+#content .content_qna h4{font-size:11px; margin:0;}
+
+#content .content_qna .body{padding: 4px 6px;}
+#content .content_qna .body.full_width{padding:4px 0 12px;}
+#content .content_qna .header{background: #fff url(http://image.com.com/gamefaqs/images/default/head_qna_gradient.gif) top left repeat-x; border:1px solid #D5D5D5; height:1%; margin-bottom:5px; overflow:hidden; padding:8px 8px;}
+#content .content_qna .header h1{font-size:20px;}
+#content .content_qna .header h2{font-size:14px; color:#000; float:left; margin:0;}
+#content .content_qna .header span{float:right; margin-top:1px;}
+#content .content_qna .header_small{background:#5351BC; color:#fff; height:1%; overflow:hidden; padding:3px 10px;}
+#content .content_qna .header_small h2,
+#content .content_qna .header_small h3{color:#fff; float:left; margin:0;}
+#content .content_qna .header_small span{display:block;float:right;}
+#content .content_qna .header_small a{color:#fff;}
+
+#content .content_qna .title_bar{background:#e6e6e6; height:1%; overflow:hidden; padding:3px 10px; margin:0}
+#content .content_qna .title_bar h2,
+#content .content_qna .title_bar h3{display:block; float:left;}
+#content .content_qna .title_bar span{color:#333; display:block; float:right;}
+#content .content_qna .title_bar a{color:#403eab;}
+
+/* hr is rendered inconsistently across browsers; style the wrapper instead */
+#content .content_qna .divider{border-top:1px solid #d6d6d6;margin:0 6px;padding:0 0 13px;}
+#content .content_qna .divider hr{display:none;}
+#content .content_qna .split_text{overflow:hidden; height:1%;}
+#content .content_qna .split_text .left{float:left; width:49%; margin-right:10px;}
+#content .content_qna .split_text .right{float:right; width:49%;}
+#content .content_qna .view_block{background:#5351BC; border: 1px solid #454287; color:#fff; padding:5px; margin-bottom:10px;}
+#content .content_qna .view_block a{color:#fff; font-weight:bold;}
+#content .content_qna .view_wrap{overflow:hidden; height:1%;}
+#content .content_qna .view_wrap .view_block{float:left; margin-right:4px; width:47%;}
+#content .content_qna .view_wrap .view_block.last{margin-right:0; float:right;}
+
+/* forms */
+#content .content_qna form,
+#content .content_qna form fieldset{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+#content .content_qna form input,
+#content .content_qna form select,
+#content .content_qna form textarea{font-size:12px; margin-bottom:10px; padding:0;}
+#content .content_qna form input,
+#content .content_qna form textarea{padding:1px 3px 0 3px; width:96%;}
+#content .content_qna form input.hidden{display:none;}
+#content .content_qna form input.submit{background:transparent url(http://image.com.com/gamefaqs/images/default/btn_bg_med.gif) no-repeat scroll center top; border:0 none; cursor:pointer; height:18px; padding:0; width:150px;}
+#content .content_qna form input.checkbox{width:auto; padding:0; margin:0;}
+#content .content_qna form legend{display:none;}
+
+#content .content_qna .search_qna{}
+#content .content_qna .search_qna fieldset{height:24px; overflow:hidden; padding:4px;}
+#content .content_qna fieldset.searchbox{background:#a2a2a2; border: 1px solid #878787;padding-left:124px;padding-right:94px;}
+#content .content_qna fieldset.searchbox label{color:#fff; float:left; font-size:12px; font-weight:bold; margin:0 0 0 -120px;padding:4px 3px 3px 3px;width:114px;}
+#content .content_qna fieldset.searchbox input{border:0;margin-bottom:0;}
+#content .content_qna fieldset.searchbox span.data{float:left;width:100%;}
+#content .content_qna fieldset.searchbox span.data span{background:#fff;display:block;padding:4px 3px 0;height:20px;overflow:hidden;}
+#content .content_qna fieldset.searchbox input.text_field{font-size:12px;height:100%;padding:0;width:100%;}
+#content .content_qna fieldset.searchbox input.submit_search{float:left;color:#403eab;font-weight:bold;height:24px;width:90px;margin:0 -90px 0 0;padding:0 0 2px 0;}
+#content .content_qna .search_qna fieldset.checkbox{text-align:right;padding-right:16px;}
+#content .content_qna .search_qna fieldset.checkbox label{vertical-align:1px;}
+#content .content_qna .search_qna fieldset.checkbox input{width:auto;padding:0;margin:0;}
+
+#content .content_qna .ask_question{height:1%; overflow:hidden;}
+#content .content_qna .ask_question p{font-size:12px;}
+#content .content_qna .ask_question .intro_text{float:left; width:37%; padding-right:10px;}
+#content .content_qna .ask_question .intro_text span{display:block; font-size:11px; margin-top:10px;}
+#content .content_qna .ask_question fieldset{float:right; width:60%;}
+#content .content_qna .ask_question fieldset .submit{float:right;margin-top:15px;}
+#content .content_qna .ask_question fieldset select{width:100%;}
+
+#content .content_qna .answer_question{height:1%; overflow:hidden;}
+#content .content_qna .answer_question p{margin-bottom:15px;}
+#content .content_qna .answer_question label{display:block;margin-bottom:3px;}
+#content .content_qna .answer_question fieldset{float:left; width:100%;}
+#content .content_qna .answer_question fieldset select{width:98%;}
+
+#content .content_qna .moderate_qna label{display:block;}
+#content .content_qna .moderate_qna select{width:100%;}
+#content .content_qna .moderate_qna textarea{width:98%;}
+#content .content_qna .moderate_qna .submit{margin:0 0 0 190px;}
+#content .content_qna .ask_question label{vertical-align:1px;}
+
+/* tables */
+#content .content_qna div.qna_table{background:#fff;padding:1px;}
+#content .content_qna div.qna_table table{width:100%;text-align:left;}
+#content .content_qna .qna_table td{border-top:1px solid #d6d6d6; padding:8px 11px;}
+#content .content_qna .qna_table th{background:#5351bc; color:#fff; padding:4px 11px;}
+#content .content_qna .qna_table td,
+#content .content_qna .qna_table td a,
+#content .content_qna .qna_table th a{font-weight:normal;}
+#content .content_qna .qna_table tr.footer,
+#content .content_qna .qna_table tr.highlighted{background:#FFFFE7;}
+#content .content_qna .qna_table tr.footer td{padding:6px 11px;}
+#content .content_qna .qna_table .count,
+#content .content_qna .qna_table .status{font-weight: normal;}
+#content .content_qna .qna_table .count{width:60px; text-align:center;}
+#content .content_qna .qna_table .status{width:74px;}
+#content .content_qna .qna_table .question,
+#content .content_qna .qna_table .question a{font-weight:bold;}
+#content .content_qna .qna_table .question.large{font-size:14px;}
+#content .content_qna .qna_table .question.large span,
+#content .content_qna .qna_table .question.large span a{font-weight:normal;}
+#content .content_qna .qna_table .grey{background:#e1e1e1; color:#333;}
+
+/* hub page */
+#content .content_qna.hub .body{padding:4px 2px;}
+#content .content_qna.hub .body.intro{padding:4px 9px 0; margin-bottom:15px;}
+#content .content_qna.hub .header{padding:8px;}
+#content .content_qna.hub .header h2{padding:4px 3px; font-size:20px; color:#000; float:left; margin:0;}
+#content .content_qna.hub .header h3{font-size:14px;}
+
+/* question page */
+/* question */
+#content .content_qna .question_pod{background:#fff;}
+#content .content_qna .question_pod .header_small{border:1px solid #fff;}
+#content .content_qna .question_pod .body{padding:9px 16px;}
+#content .content_qna .question_pod .question_title{font-size:14px; font-weight:bold; margin:3px 0 8px;}
+#content .content_qna .question_status{padding:0 5px; overflow:hidden; height:1%; margin:10px 0 3px;}
+#content .content_qna .question_status .left{width:154px; float:left;}
+#content .content_qna .question_status .right{width:auto; float:left;}
+/* shared */
+#content .content_qna .with_rating .body p{float:left; width:84%; padding-right:15px; margin-bottom:0;}
+#content .content_qna .with_rating .body .rating{background:url(http://image.com.com/gamefaqs/images/default/thumbs_up_down.gif) top left no-repeat; overflow:hidden; float:right; width:63px; height:20px;}
+#content .content_qna .with_rating .body .rating.up{background-position: 0 -40px;}
+#content .content_qna .with_rating .body .rating.down{background-position: 0 -20px;}
+#content .content_qna .with_rating .body .rating a{color:#676767;cursor:pointer; display:inline; float:left; font-size:9px; height:15px; padding:5px 0 0 13px; text-align:center; width:18px;}
+/* answers */
+#content .content_qna .answers{margin:0 10px;}
+#content .content_qna .answers .header_small{margin-bottom:10px; padding-right:0;}
+#content .content_qna .answers .header_small span{width:63px; text-align:center;}
+#content .content_qna .answer_pod{background:#fff;}
+#content .content_qna .answer_pod .body{overflow:hidden; height:1%; margin-bottom:0; padding:10px 10px 12px;}
+#content .content_qna .answer_pod.with_rating .body{padding-right:0;}
+#content .content_qna .answer_pod .body form.choose{width:150px;}
+#content .content_qna .answer_pod .body form.choose input{margin: 10px 0 0;}
+#content .content_qna .answer_pod .body .choose_btn{background:#FFFFE8; border:1px solid #EBEDBC; color:#333333; cursor:pointer; font-weight:bold; font-size:11px; /*display:block; margin-top:10px;*/ padding:3px 0; text-align:center; width:150px;}
+/* accepted answer */
+#content .content_qna .accepted_answer{background:#fff;}
+#content .content_qna .accepted_answer .title_bar{background:#ffffe6; border:1px solid #fff; padding:3px 10px; margin:0}
+#content .content_qna .accepted_answer .title_bar h3,
+#content .content_qna .accepted_answer .title_bar span{color:#333;}
+#content .content_qna .accepted_answer .title_bar a{color:#403eab;}
+#content .content_qna .accepted_answer .body{overflow:hidden; height:1%; margin-bottom:0; padding:4px 10px 12px;}
+
+
+/* BOARDS
+*******************************/
+#board_wrap a.user{font-weight:normal;}
+#board_wrap a:visited{color:#58c;}
+#board_wrap thead a,
+#board_wrap tr.head a,
+#board_wrap tr.head a:visited{color:#eee}
+
+/* BOARD NAV */
+.board_nav{height:1%;overflow:hidden;}
+.board_nav .body{background:#eee;margin:0;padding:0;height:1%;overflow:hidden;}
+.board_nav div.user{float:right;padding:10px 5px;}
+.board_nav div.pages{float:left;font-weight:bold;padding:10px 5px;}
+
+/* SEARCH TOPICS */
+.searchtopics{background:#eee;margin:15px 0;padding:15px 0;text-align:center;}
+.searchtopics form{height:24px;width:330px;margin:0 auto;padding:0 70px 0 80px;}
+.searchtopics .btn{float:right;width:64px;margin:0 -70px 0 6px;}
+.searchtopics .btn span{width:64px;right:0;}
+.searchtopics .btn .btn_wrap{width:48px;}
+.searchtopics .data{float:left;width:100%;height:20px;margin:2px 0;}
+.searchtopics .data span{background:#fff;border:1px solid #999;display:block;height:14px;padding:2px 3px;overflow:hidden;}
+.searchtopics .data input{background:none;border:0;padding:0;width:100%;}
+.searchtopics label{float:left;margin:5px 0 0 -80px;width:80px;}
+
+/* PAGE JUMPER */
+#content .pagejumper{line-height:11px;margin:0 0 15px;width:100%;}
+#content .pagejumper ul{list-style:none;height:1%;overflow:hidden;margin:0;padding:0;}
+#content .pagejumper li{float:left;border-left:1px solid #333;margin:2px 0;padding:0 5px 0 6px;}
+#content .pagejumper li.first{border:none;padding-left:0;}
+#content .pagejumper li.first a{padding-left:3px;}
+
+/* BOARD TABLE */
+table.board{table-layout:auto;}
+table.board td,
+table.board th{background:#eee;padding:10px 5px;vertical-align:middle;}
+table.board td.count{font-weight:bold;}
+table.board td.split{font-weight:bold;text-align:center;}
+table.board tr.even td,
+table.board tr.even th{background:#fff;}
+table.board .actions{white-space:nowrap;}
+table.board .date,
+table.board .lastpost{white-space:nowrap;padding-right:15px;}
+table.board col.board{width:20%;}
+table.board col.status{width:24px;}
+table.board col.topic{width:auto;}
+table.board col.actions,
+table.board col.count,
+table.board col.date,
+table.board col.lastpost{width:1%;}
+table.board col.yourmsgs{width:80px;}
+table.board col.reason,
+table.board col.action,
+table.board col.msgstatus{width:100px;}
+
+/* SYSTEM TABLE */
+table.system{table-layout:auto;}
+table.system td {padding:5px;width:20%;text-align:center;}
+
+/* LEAVE THE FOLLOWING BELOW TABLE.BOARDS TO INHERIT BOARD STYLES */
+/* BOARD TABLE -- TOPICS */
+/* Usage: <table class="board topics"> */
+table.topics{color:#03c;}
+table.topics td{padding:6px 5px;}
+
+/* BOARD TABLE -- MESSAGES */
+/* Usage: <table class="board message"> */
+table.message{border:0 solid #999;border-width:2px 0 0;margin:1px 0 15px;}
+table.message col.author{border-right:1px solid #333;width:110px;}
+table.message td{border:0 solid #999;border-width:0 0 2px;font-size:12px;padding:10px;vertical-align:top;}
+table.message td.author{border-right-width:1px;font-size:11px;text-align:center;}
+table.message td.author a{font-weight:normal;}
+table.message td.author a.name{font-size:12px;font-weight:bold;}
+/* table.message td .msg_body{overflow-x:auto;width:750px;} */
+
+/* LISTS -- FORUM MESSAGES // Used for for viewing author above board message */
+#content ul.msgs{height:1%;list-style:none;overflow:hidden;margin:0 0 15px;padding:0;}
+#content ul.msgs{border:0 solid #999;border-width:2px 0 0;}
+#content li.msg{float:left;font-size:12px;width:100%;}
+#content li.msg .msg_body,
+#content li.msg .msg_stats{border:0 solid #999;border-width:0 0 2px;padding:10px;}
+#content li.msg .msg_body{}
+#content li.msg .msg_stats{background:#eee;}
+
+/* USER INFO TABLE */
+table.userinfo{border-top:2px solid #999;margin:1px 0 0;}
+table.userinfo col.attribute{width:150px;}
+table.userinfo td,
+table.userinfo th{font-weight:normal;padding:5px;text-align:left;}
+.pod .pod table.userinfo{border-width:0;margin:0;}
+
+/* not sure if div.notice styles are used anymore */
+#content div.notice{font-size:12px;padding:0 10px 0 15px;margin-top:5px;}
+#content div.notice h2{font-size:11px;margin:0;}
+#content div.notice span.user a{font-weight:normal;margin-left:10px;}
+
+#content .pagenum {clear: both;width:100%;text-align:center;font:12px arial}
+
+.ffaq   {font:13px arial,helvetica,sans-serif;}
+.ffaq   div.ftoc    { border-width: 1px; border-style: solid; float:right; clear:right; margin: 10px; padding: 3px; width: 250px; font:11px arial,helvetica,sans-serif; background-color: #F0F0F0;}
+.ffaq   div.section_box { overflow:hidden; clear: left; margin: 15px; padding: 5px; background-color: #F0F8FF; border-width: 1px; border-style: solid;}
+.ffaq   div.spoiler_box { overflow:hidden; clear: left; margin: 15px; padding: 5px; background-color: #F8F8F8; color: #F8F8F8; border-width: 1px; border-style: solid; border-color: black;}
+.ffaq   h6.spoiler {color: black;}
+.ffaq   h2 {overflow:hidden; border-width: 0px 0px 2px 0px; border-style: solid; border-color: black;}
+.ffaq   h3 {overflow:hidden; color: black; border-width: 0px 0px 1px 0px; border-style: dashed; border-color: gray;}
+.ffaq   table.ffaq { width: auto; border-width: 2px;border-style: solid; border-collapse:collapse;}
+.ffaq   td.ffaq    { border-width: 1px; border-style: solid; }
+.ffaq   th.ffaq    { font-weight:bold; border-width: 1px; border-style: solid; }
+.ffaq   div.section { margin: 10px}
+.ffaq   div.fimg_small    { font-size: 10px; border-width: 1px; border-style: solid; float:right; clear:right; margin: 10px; padding: 2px;}
+.ffaq   img.fimg_small    { width: auto; }
+.ffaq   div.fimg_large    { font-size: 10px; border-width: 1px; border-style: solid; float:left; clear:both; margin: 10px; padding: 2px; }
+.ffaq   img.fimg_large    { width: auto; }
+.ffaq   div.clear { clear: left;}
+.ffaq   h5       {font-weight: normal; }
+.ffaq   dl  dl   {text-indent:20px; }
+.ffaq   dl  dl  dl {text-indent:40px; }
+.ffaq   dl  dl  dl dl {text-indent:60px; }
+
+.picked {font-size:11px; text-decoration:underline;cursor:pointer;background-color:yellow}
+.not_picked {font-size:11px; text-decoration:underline;cursor:pointer;}
+.nopick {font-size:11px; text-decoration:none;}
+.correct {font-size:11px; background-color:#8f0}
+.incorrect {font-size:11px; background-color:#fbb}
+
+#content .body .rating{background:url(http://image.com.com/gamefaqs/images/default/thumbs_up_down.gif) top left no-repeat; overflow:hidden; float:right; width:63px; height:20px;}
+#content .body .rating.up{background-position: 0 -40px;}
+#content .body .rating.down{background-position: 0 -20px;}
+#content .body .rating a{color:#676767;cursor:pointer; display:inline; float:left; font-size:9px; height:15px; padding:5px 0 0 13px; text-align:center; width:18px;}

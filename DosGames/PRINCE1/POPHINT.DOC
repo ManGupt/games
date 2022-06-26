@@ -1,0 +1,10 @@
+Ok.. for all you guys that end up at level ten with 13 seconds left (I know it
+bugs the hell outa you) all you have to do to get more time is load the
+prince.sav file up into a hex editor like pc-tools or something then you get
+
+0000: 0b 00 b6 01 03 00 03 00
+      ^           ^     ^
+       TIME            Health (In numbers) eg.. 12 = 12 health
+      (In Min)   Level (Remeber to put this in hex)
+
+

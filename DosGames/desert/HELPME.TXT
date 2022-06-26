@@ -1,0 +1,171 @@
+ Copysoft Trouble Shooting Guide
+ -------------------------------
+
+ All the games require a 100% IBM compatible computer equipped with
+ 640k of memory and a VGA card. Your version of DOS must be at least
+ version 3.0 or later.
+
+ This program has been tested for many hours and has gone through strict
+ quality checks but because of the diversity of hardware and software
+ combinations that exist with PC's there may be problems that we could
+ not possibly test.
+
+ DON'T INSTALL MORE THAN **ONE** COPYSOFT GAME IN A DIRECTORY !!!!!!!
+
+ Here is a list of the most common problems that may arise. If you have
+ still problems, we recommend that you call your dealer for assistance.
+
+ MEMORY RELATED PROBLEMS
+ -----------------------
+
+  Q. When I execute the game the program tells me that there is insufficient
+     "Conventional Memory"
+
+  A. "Conventional Memory" refers to the memory that is up to the 640k limit.
+     This situation arises when your computer has programs that are
+     permanent in memory. These programs are normally loaded through your
+     CONFIG.SYS or AUTOEXEC.BAT files. The most common categories are
+     TSR'S,Device Drivers or Network Utilities.
+
+     - If you have a version of DOS that allows you to load DOS high
+       (5 upwards) you may be able to move these programs into the "extended"
+       or "expanded" area of memory. Because of the number of permutations we
+       cannot suggest a full CONFIG.SYS or AUTOEXEC.BAT layout and can only
+       refer you to your DOS manual.
+
+       The lines to add to CONFIG.SYS must be (DOS 5.xx and later):
+
+         DEVICE=HIMEM.SYS
+         DOS=HIGH,UMB
+
+       Change also all the DEVICE=... to DEVICEHIGH=...
+
+     - Another solution is to create a "BOOT DISK":
+
+        1. Insert a blank disk in drive A
+        2. Type FORMAT A: /S
+        3. Reboot the computer without removing the floppy
+        4. go to drive C: and run the game
+
+       You will have to repeat steps 3 and 4 each time you want to run
+       the game.
+
+
+ GAME STOPS WORKING OR BEHAVES ERRATIC OR GAME IS SLOW
+ -----------------------------------------------------
+
+ Q.  When I run the game it "locks" up.
+
+ A.  The most common causes of this are :-
+
+     1. You do not have the correct files or files are missing that are
+        needed to run the game. You will need to compare the distribution
+        file (FILES.LIS) with the actual files in the directory.
+
+    2.  If you have a SOUND BLASTER or compatible card and the program
+        cannot detect it , or is not using it, this can lead to a "lock up"
+        Please refer to SOUND RELATED problems in this document.
+
+    3.  You have specified that you have a JOYSTICK and it is not connected
+        properly. This causes the program to switch off important interrupts
+        and will either slow down the computer or lock it up. Check that
+        the joystick is connected properly. There is no reliable way for the
+        software to check that the stick is fully connected!
+
+
+ Q. The game runs slowly and the scrolling is jerky.
+
+ A. All the games have been written using the fastest method available.
+    Our games support 256 color VGA and some use advanced "Parallax" scrolling
+    and larger than normal sprites. For this reason your computer must be
+    a 286 or above.
+
+    Old VGA cards can also be slow and were not designed for todays modern
+    applications. Some 386SX computers are actually slower than 286 based
+    machines! This is because graphic based programs need to move
+    large amounts of data in a very short time and some SX based processors
+    take longer to process these type of loops than a 286 would. It seems
+    a crazy situation but we have had direct experience of this.
+
+    WE SUGGEST THAT YOU BUY A NEW * 16 Bit VGA CARD * AND THIS SHOULD SOLVE
+    THE PROBLEM.
+
+ Q. I have set the JOYSTICK option but the character "drifts" on the screen.
+
+ A. The game requires you to "CALIBRATE" your joystick and you have not
+    followed this procedure correctly or you have changed the joystick
+    or altered the speed of your machine since you last calibrated. Some
+    joysticks have "trim" controls and these may have moved after you
+    calibrated. As a final measure check that the stick is fully connected.
+
+    If you are experiencing any fault with the joystick then it is a
+    quick and simple procedure to calibrate it using the built in program.
+
+    Here are a few tips to help you calibrate correctly.
+
+     1. Choose JOYSTICK from the GAME SETUP option.
+     2. Ensure that any AUTO FIRE capability is SWITCHED OFF
+     3. Follow the prompts and make sure that when pressing the FIRE
+        button you press the button when you are requested to do so.
+     4. If your machine has a TURBO facility then note the state of
+        this switch.
+
+     These settings are saved on the disk so you do not need to set them
+     every time you play the game.
+
+ SOUND RELATED PROBLEMS
+ ----------------------
+
+ The game supports the ADLIB and SOUND BLASTER standards as well as
+ providing support for the internal speaker. The SOUND BLASTER provides
+ an additional function to allow "DIGITAL voice capability". Any problems
+ that may arise will be mainly to do with this voice capability. Incorrect
+ settings can cause your computer to "lock" up.
+
+ Q. My SOUND BLASTER or Compatible Card does not seem to be recognised by the
+    program.
+
+ A. The program needs to know two important items of information about your
+    sound card before it can operate properly. The game automatically looks
+    for a SOUND BLASTER card using the default settings of these cards. If
+    your card is set up different from this defaults you will need to run
+    the SOUND BLASTER SETUP utility. You may execute this utility by answering
+    YES to the prompt after leaving this document.
+
+ Q. I have the SOUND BLASTER option set but when I am playing the game
+    the program "locks"
+
+ A. Again this means that the SOUND BLASTER may have been detected but
+    the IRQ and BASE IO address settings are still incorrect or there is
+    a conflict with some hardware or software.  Refer to your technical
+    information on your sound card to determine how to find these two
+    numbers. After leaving this program you will be asked if you want to
+    alter these default numbers.
+
+
+    PLEASE DON'T USE IRQ 10, SKUNNY DON'T LIKE IT. YOU WILL NOT HEAR ALL
+    THE SOUNDS IN THE GAME !!
+
+
+    IMPORTANT
+    --------
+
+    This game supports cards that ARE 100% Compatible with the
+    Sound Blaster. If you are sure that the settings are correct and
+    the program still refuses to recognise the card then it is most likely
+    that the card is not 100% compatible!.
+
+
+We hope that these notes will clear up any problems that you may have
+if this is not the case then please contact your nearest COPYSOFT
+dealer and he will either handle the query himself or pass the
+information on to us.
+
+
+SOUND BLASTER is a registered trademark of Creative Labs Inc
+ADLIB is a registered trademark of Adlib Inc
+IBM is a registered trademark of International Business Machines
+SKUNNY and COPYSOFT are Trademarks of EDISYS sc.
+
+Document (C) COPYRIGHT EDISYS 1993
+

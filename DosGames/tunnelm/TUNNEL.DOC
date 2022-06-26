@@ -1,0 +1,146 @@
+Documentation for The TunnelMan v1.0
+====================================
+
+
+Index
+=====
+
+1.  What is The TunnelMan?
+2.  System Requirement
+3.  Installation and start up
+4.  Instructions for game play
+5.  Instructions for tunnel editor
+6.  History of The TunnelMan
+7.  Disclaimer
+
+
+
+1. What is The TunnelMan?
+==========================
+
+  The TunnelMan is a semi-action game which requires you to think a little
+bit in order to get pass each level.  In this game, you control a little
+person (who is a miner) and you have to help him to find his way out from
+the tunnel.  In each level, you have to collect all the dynamites and a
+detonator before you can use them to blow a hole on the emergency door. After
+that, you will be able to get to the next level.  A detail story can be found
+when running the program.
+
+
+
+2. System Requirement
+======================
+
+  * 80286 or higher processor
+  * conventional memory of around 300k
+  * VGA monitor
+  * MS-DOS version 5.0 or above
+    (I programmed this in MS-DOS 5.0 but it might work for DOS that has a
+     version number less than 5.0)
+  * disk space of around 1MB (a hard disk is recommended)
+
+
+
+3. Installation and start up
+=============================
+
+  It would be great if you can install this game into a harddisk since this
+game requires frequent disk access.  After unzipping the program using 
+pkunzip, you can run the game by typing "tunnel".
+
+  You may supply the following command line arguments:
+
+  /h:  display help screen
+  /f:  set the name of the tunnel file, default is tunnel.dat
+  /s:  set animation speed
+
+  Once you have got into the title screen, you will going to read the story
+about this game and you can skip to the next screen by pressing any key.
+Pressing ESC will bring you to the key instruction screen which shows you
+the rules and the keys for the game.
+
+
+
+4. Instruction for game play
+=============================
+
+  You can use the cursor to control the person's movement.  Note that there
+is no key that allows you to "jump" to a higher level.  In order to reach a
+high tunnel level, you must use the ladder and press the up cursor key.  You
+can "drop" yourself from a higher level to a lower level and the person will
+not get hurt.  Collecting objects is simple; you only have to walk to the
+object and you will pick it up automatically.  Note that when there is a
+brick on top of your head, if you walk under it, the brick will fall.  An
+animation sequence is shown in instruction screen and I highly recommend you
+read it before you start playing the game.
+
+  Keys:
+
+  up    arrow:  climb up
+  down  arrow:  climb down
+  left  arrow:  walk left
+  right arrow:  walk right
+
+  ESC:          display a list of keys, number of lives and oxygen left
+  Q:            quit program
+  R:            retry level
+  F:            refill lives (to 9) and refill oxygen
+  space:        invoke the tunnel editor
+
+
+
+5. Instruction for tunnel editor
+=================================
+
+  The editor itself is pretty self-explanatory.  There is only one thing
+requires to talk about:  what keys do you have to use after you get into the
+graphical editor (i.e. by selecting option 1 from the editor's main menu).
+
+  Within the editor, you can use the cursor keys to move the big cursor.  The
+HOME and END key can be used to move the cursor to the beginning or to the end
+of the line.  To place / change an object, use the number keys (or the keypad
+with NUMLOCK on).
+
+  1 - brick
+  2 - ladder
+  3 - dynamite
+  4 - detonator
+  5 - exit
+  6 - person
+  7 - wall (or delete if you like)
+
+  Pressing ESC during editing will bring you back to the main editor menu.
+Then you may choose to save the level, play the level etc.
+
+
+
+6. History of The TunnelMan
+============================
+
+  This game's idea is taken from the game that I wrote for my "1 line screen"
+pocket computer 6 years ago.  I had decided to port it to the PC a year or 2
+ago but I couldn't motivate myself for doing it.  I managed to start it in 
+January this year because I was teaching a class of information technology 
+students and I wish to show them how "fun" programming can be, so I did it.
+The program didn't turn out to be that bad =) but I still think there are 
+quite a few improvements could be made...
+
+  I hope you will enjoy playing this game as much as I enjoy writing it.
+This program is written using Turbo Pascal 6.0 with TASM 3.0.  Since this is
+the first game that I wrote, it would be appreciated if you can kindly give
+me some comments so that I can improve when I write my next game.  Here's my
+e-mail address:
+
+  chcy@mundil.cs.mu.oz.au
+
+  Have fun...
+
+  Cheung =) 19th November 1994
+
+
+
+7. Disclaimer
+==============
+
+  You are running this program AT YOUR OWN RISK.  The author is not
+responsible for any damage done by this program.

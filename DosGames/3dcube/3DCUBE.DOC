@@ -1,0 +1,110 @@
+                                                        December 24, 1994
+
+                         3DCUBE v 1.0
+
+                        by Warren Ward
+
+                           (c) 1994
+
+
+REGISTRATION:
+
+This program is offered as Shareware and is NOT free.  After a 10-day
+trial period you must register your copy of 3DCUBE.  You may send your
+$7.00 registration fee to:
+
+                      Warren Ward
+                      10331 Zelzah Ave #50
+                      Northridge, CA 91326
+
+                      Internet: WWard@annex.com
+
+In return you will receive a copy of the latest registered version.  You
+will also receive a set of instructions which reveal the secret to solving
+the cube!  If do not want the solution, you may register for a mere $5.00.
+
+An enormous amount of time and effort went into this program.  By
+registering, you make future programs and games possible.  Please
+copy this puzzle for anyone who might enjoy it, and Upload everywhere.
+Do not modify 3DCUBE or this .DOC file in any way, whatsoever.  Please,
+keep both files together.
+
+
+REQUIREMENTS:
+
+3DCUBE needs a 286 (or higher) PC or compatible with color VGA.  Mouse is
+optional, but highly recommended.
+
+
+DESCRIPTION:
+	
+3DCUBE is the best 3D cube puzzle available.  It features high resolution
+graphics with very smooth, three-dimensional animation.  It operates exactly
+like the real cube puzzle, which is sold in many toy stores.  This program
+also displays a 2D layout across the top of the screen so that all sides
+can be viewed at once.
+
+Start by having the computer mix up the cube.  Each face of the cube may
+be rotated to change the position of the colors.  It is up to the user
+to move the colors back to their original positions, so that each face of
+the cube contains only one color.  It is actually easier than it appears!
+
+The entire cube may be rotated about the x,y, or z axis.  To rotate
+counterclockwise (as viewed from the top/left) press x,y, or z on the
+keyboard.  Or, with a mouse, click with the cursor on the appropriate button
+displayed above the cube.  To rotate clockwise use Capital X,Y, or Z or
+click with the right mouse button.
+
+To rotate a cube face counterclockwise, press the number printed below the
+2D display of that particular face.  (Note:  the center color never changes.
+Therefore, "1" always turns the face with the blue center, etc.)  If using a
+mouse, click with the cursor directly on the 2D display of the face you wish
+to turn.  To turn clockwise, use shift with the number on the keyboard or
+use the right button of the mouse.
+
+All rotation is done in relation to the cube, not the monitor.  Therefore,
+if the back side of the cube is rotated clockwise it will appear to rotate
+counterclockwise.
+
+Good Luck!
+
+
+LEGAL STUFF:
+
+This program is offered as is and without warranty, either expressed or
+implied.  The user assumes full responsibility, and agrees to hold author
+harmless, for any damages or losses, direct or indirect, which may result
+from the use of this program.  The only assurance given is that all
+reasonable effort has been made to ensure that 3DCUBE will not harm the
+executing computer.
+
+Any modification of, or attempt to derive source from 3DCUBE constitutes
+a violation of federal copyright laws.
+
+
+ABOUT THE PROGRAM:
+
+3DCUBE was written entirely by Warren Ward using Borland Turbo C++ 3.0 with
+a large amount of inline assembly.
+
+The non-standard 320x400x256 video mode was chosen for three reasons:
+
+   1) 3DCUBE uses two full screen pages for smooth animation.
+   2) I needed a black that was "not really black" (color 16) for
+      "invisible border" fills.  (Others are used also.)
+   3) It is the highest VGA resolution that satifies both #1 and #2.
+
+Because the video mode is non-standard, it was necessary to create a full
+library of graphic functions.  These were all written as inline assembly
+routines for maximum speed and minimum size.  For the same reasons, all
+printing functions are inline assembly creations as well.
+
+The cube itself does NOT consist of a series of matrices defining the
+borders of several objects, as is typical.  For this program, that method
+would have been significantly slower.  I leave it to you to figure out how I
+really did it.
+
+I welcome any comments, questions, suggestions, and ideas.  Feel free to
+send E-mail or write to the address above.  If you need a creative programmer
+to assist with a project, I'm interested.
+

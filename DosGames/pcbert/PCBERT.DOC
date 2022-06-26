@@ -1,0 +1,163 @@
+PC*Bert V1.01  15th Nov 1997
+=============================
+
+Contents:
+
+ 1. System Requirements
+ 2. Running the Game
+ 3. Game Instructions
+ 4. Controls & Keys
+ 5. Soundcard Support  (* IMPORTANT )
+ 6. Video Mode Support (* IMPORTANT )
+ 7. About the Game & Author
+ 8. Thanks
+ 9. Interesting Web Sites to visit.
+10. Release History/What's New
+
+
+
+1. System Requirements
+----------------------
+
+386-33 with local bus video ( minimum )
+
+It is at its best running on a 486-33, or better, with local bus
+video ( VESA or PCI ).
+
+1 Meg of extended Memory ( if you want sound )
+Sound Blaster Pro, or compatible, soundcard.
+Multi-sync monitor for the full screen mode.
+                                            
+Note: This game won't run on a 286.
+
+Note: You will need 1 Meg of extended memory so make sure you have
+      HIMEM.SYS or someother XMS manager loaded in you config.sys.
+
+
+
+2. Running the Game
+-------------------
+
+At the DOS prompt type
+
+pcbert
+    then hit enter
+
+
+
+
+ 
+3. Game Instructions
+--------------------
+
+
+4. Controls & Keys
+------------------
+
+Default Keys
+
+A - up left
+Z - down left
+' - up right
+/ - down right
+
+ESC - ends game/exit game from title screen
+
+
+
+5. Soundcard Support
+--------------------
+
+This game only supports Soundblaster Pro or better soundcards. It should work
+with compatibles but I haven't tested it with many.
+
+To allow sound in the game you need to set the DOS 'BLASTER' variable. 
+If you  have a soundblaster Pro, or better, this should already be in your
+autoexec.bat.
+
+If you don't set the blaster variable but have a SB-Pro  compatible card
+you need to do the following at the DOS command prompt
+
+set blaster=A220 I5 D1 
+
+Where :
+A is the port your card uses, usually port 220.
+I is the interrupt the card uses, usually 5 but it could be 7.
+D is the DMA channel to use, usually 1 could be 3.
+
+The hardware addresses MUST match the settings of the card, or you
+will not get sound.
+
+There are immediate plans to support any other soundcards or the PC's 
+internal buzzer.
+
+
+
+6. Video Mode Support
+---------------------
+
+This is really important !!
+
+PC*Bert uses a 'cooked' video mode of 256 x 256 pixels, 
+
+
+ 
+7. About the Game & Author
+--------------------------
+
+Finally after a million delays, and just about every other project
+I've been working on taking priority, this is the first release version
+of PC*Bert.
+
+PC*Bert was started in late 1995, and sat around untouched for very
+long periods of time. Most recently my arcade simulation project took
+priority and it was left to sit for another month or so..
+
+Still, here it is hopefully bug free and ready to roll..
+
+Again it's all coded in C along with assembler routines for sound, sprites,
+screen updates etc.
+
+Please don't mail me asking for the source code as I will not be releasing
+any of it.
+
+This game is FREEWARE, you don't have to register/pay/contribute or whatever,
+it's free !! Now who said "There ain't no such thing as a free lunch...". 
+This game is 'as is' and comes with no warranty either specific or implied, 
+you are quite free to distribute it, copy it or eat it, whatever you want to 
+do. You should not, however, charge for it. Selling this game for profit, 
+rather than a valid duplication fee, will result in really bad Karma, and
+depending on your religious persuasion may result in eternal damnation,
+or at least a couple of centuries in purgatory.
+
+
+
+8. Thanks
+---------
+
+Thanks must go to everyone who's Beta tested, added input and
+been involved in anyway.
+
+
+9.Interesting Web Sites to visit.
+----------------------------------
+
+Yahoo's list of classic arcade game stuff
+http://www.yahoo.com/Recreation/Games/Video_Games/Classic_Arcade_Games/
+
+The Pac Page.
+http://www4.ncsu.edu/eos/users/m/msstowe/WWW/Pac-Man/pac-man.html
+
+The Home of the PacPC games and PC*Bert
+http://www.jrok.com
+
+
+
+10. What's New/Release History
+------------------------------
+
+v1.00   Aug  4th 1997    First official release
+v1.01   Nov 15th 1997    Update - Bug fixes
+                         Joystick now works in highscore table
+                         
+

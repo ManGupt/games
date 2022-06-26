@@ -1,0 +1,1 @@
+[CreateGroup(Broderbund Software,brodbund.grp)] [AddItem(C:\GAMES\PRINCE2\PRINCE.PIF,Prince of Persia 2,C:\GAMES\PRINCE2\PRINCE.ICO)]

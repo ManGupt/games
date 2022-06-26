@@ -1,0 +1,2166 @@
+;
+; Setup
+;
+X2
+IB
+C
+A1
+Q5
+"Hello.  This animated chess tutorial
+will show you everything you need
+to know to start playing chess.
+"
+P05
+"Press Ctrl-W to pause the tutorial at any time.
+Press the space bar to move ahead when you have read a message.
+Try it now!
+"
+P20
+"Now pay attention!
+"
+P03
+"Chess is played on an 8 x 8 board of light and dark squares
+"
+P05
+"Always turn the board so that a
+light-colored square is in the lower-right corner.
+"
+P05
+""Light on Right" is an easy way to remember this.
+"
+P05
+U
+DWPa4
+DWPb4
+DWPc4
+DWPd4
+DWPe4
+DWPf4
+DWPg4
+DWPh4
+"The rows of the chess board are called RANKS (1 to 8).
+These Pawns are all on the fourth rank.
+"
+P10
+U
+C
+DWPd1
+DWPd2
+DWPd3
+DWPd4
+DWPd5
+DWPd6
+DWPd7
+DWPd8
+"The columns of the board are called FILES (a to h).
+These Pawns are all on the d-file.
+"
+P10
+U
+C
+"To help you remember which is which, notice that RANK
+and ROW both start with 'R'.
+"
+P10
+"Chess is a war between two
+opposing armies: White and Black.
+"
+P05
+"Each army has a King, a Queen, two Rooks,
+two Bishops, two Knights, and eight Pawns.
+"
+P10
+"Let's start by setting up the White army
+on our side of the board.
+"
+P10
+"Put one Rook at each end of the first rank.
+The Rook looks like a castle or tower.
+"
+P05
+DWRa1
+P01
+DWRh1
+P01
+"Next to each Rook, place a Knight.
+The Knights look like horses.
+"
+P05
+DWNb1
+P01
+DWNg1
+P01
+"Add a Bishop next to each Knight.
+You can tell the Bishop by the notch in his hat.
+"
+P05
+DWBc1
+P01
+DWBf1
+P01
+"There are two empty squares
+left on the near rank.
+The Queen is placed on the square
+that matches her dress.
+"
+P10
+DWQd1
+P01
+"An easy way to remember where
+the Queen goes is "Queen on Color".
+(White Queen on a White square).
+"
+P10
+"The King goes on the last empty square.
+"
+P05
+DWKe1
+P01
+"At the front of the army go the Pawns,
+or foot soldiers.
+Put one Pawn directly in front of each piece.
+"
+DWPa2
+P01
+DWPb2
+P01
+DWPc2
+P01
+DWPd2
+P01
+DWPe2
+P01
+DWPf2
+P01
+DWPg2
+P01
+DWPh2
+P01
+"Now let's turn the board around
+and quickly set up Black's pieces.
+Black's pieces always start on the eigth rank.
+"
+P10
+IT
+"Two Black Rooks...
+"
+DBRa8
+DBRh8
+P05
+"Two Black Knights...
+"
+DBNb8
+DBNg8
+P05
+"Two Black Bishops...
+"
+DBBc8
+DBBf8
+P05
+"Queen on Color! (Black Queen on Black Square)
+"
+DBQd8
+P05
+"The Black King
+"
+DBKe8
+P05
+"Pawns in front of pieces.
+"
+DBPa7
+P01
+DBPb7
+P01
+DBPc7
+P01
+DBPd7
+P01
+DBPe7
+P01
+DBPf7
+P01
+DBPg7
+P01
+DBPh7
+"White always makes the first move in a game.
+Let's rotate the board so that
+White's pieces are in front of us.
+"
+P10
+IB
+"Now we're ready to play Chess!
+"
+P05
+"Starting with White, each side takes turns moving.
+"
+P05
+U
+Se2e4
+P02
+Se7e5
+P02
+Kg1g3f3
+P02
+Kb8b6c6
+P02
+Sf1b5
+P02
+Sa7a6
+P02
+Sb5a4
+P02
+Kg8g6f6
+P02
+"As you can see, you are allowed to move only ONE piece on each turn.
+"
+P05
+Z
+;
+; The Pieces - introduction
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Pieces - introduction ***
+"
+P05
+"There are 6 different chess pieces...
+"
+P05
+"Kings,
+"
+DWKe1
+DBKe8
+P05
+C
+"Queens,
+"
+DWQd1
+DBQd8
+P05
+C
+"Rooks,
+"
+DWRa1
+DWRh1
+DBRa8
+DBRh8
+P05
+C
+"Knights,
+"
+DWNb1
+DWNg1
+DBNb8
+DBNg8
+P05
+C
+"Bishops,
+"
+DWBc1
+DWBf1
+DBBc8
+DBBf8
+P05
+C
+"and Pawns.
+"
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+DBPa7
+DBPb7
+DBPc7
+DBPd7
+DBPe7
+DBPf7
+DBPg7
+DBPh7
+P05
+C
+"Each piece has its own way of moving on the chess board.
+"
+P05
+"To play chess, you must learn how each piece moves.
+"
+P05
+U
+C
+Z
+;
+; The King
+;
+X2
+IB
+C
+A1
+Q5
+"*** The King ***
+"
+DBKe8
+DWKe1
+P05
+U
+C
+Q5
+"The King is the most important chess piece.
+"
+P05
+"If you capture your opponent's King, you WIN!!
+"
+P05
+"If your King is captured, you lose!
+"
+P05
+"Actually, the King is never really captured.
+You win by showing that you could capture your opponent's King on your
+next move, and there is no move your opponent can make to prevent
+that from happening.
+"
+P15
+"This situation is called CHECKMATE.
+"
+P05
+"After we see how the other pieces move, we will return to the subject of
+checkmate.
+"
+P05
+"But first, let's look at how the King moves.
+"
+P05
+C
+U
+DWKe2
+GWKe3
+GWKf3
+GWKf2
+GWKf1
+GWKe1
+GWKd1
+GWKd2
+GWKd3
+"The King can move one square in any direction.
+(The ghost Kings show the squares to which this White King can legally move.)
+"
+P10
+"Important Rule #1: you may never move one of your pieces
+(even the King) to a square occupied by another of your pieces.
+"
+P10
+U
+D--f2
+DWPf2
+"For example, the White King on e2 can move to every square EXCEPT
+f2, which is occupied by another White piece (a Pawn).
+"
+P10
+U
+"Important Rule #2: If an OPPOSING piece occupies a square to which you
+can move, you can CAPTURE the opposing piece by moving to that square, and
+removing your opponent's piece from the board.
+"
+P15
+D--e3
+DBPe3
+"For example, the White King can capture the Black Pawn on e3 because
+the White King can move to that square.
+"
+P05
+U
+W
+N3
+Se2e3
+"King takes (captures) Pawn.
+"
+P05
+U
+D--f2
+GWKd4
+GWKe4
+GWKf4
+GWKd3
+GWKf3
+GWKd2
+GWKe2
+GWKf2
+"Although the King is the most important piece, it is also one of the weakest,
+because it can't move very far in a single turn.
+"
+P05
+"To win the game, the King must rely on the rest of his army.
+"
+P10
+U
+C
+Z;
+; How to move the Queen
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Queen ***
+"
+DBQd8
+DWQd1
+P05
+U
+C
+Q2
+DWQd4
+GWQa4
+GWQb4
+GWQc4
+GWQe4
+GWQf4
+GWQg4
+GWQh4
+"The Queen can move horizontally along a rank,
+"
+P05
+U
+W
+GWQd1
+GWQd2
+GWQd3
+GWQd5
+GWQd6
+GWQd7
+GWQd8
+"vertically on a file,
+"
+P05
+;
+; Draw diagonal ghosts
+;
+U
+W
+GWQa1
+GWQb2
+GWQc3
+GWQe5
+GWQf6
+GWQg7
+GWQh8
+GWQa7
+GWQb6
+GWQc5
+GWQe3
+GWQf2
+GWQg1
+Q3
+"or along either diagonal.
+"
+P05
+U
+W
+GWQa4
+GWQb4
+GWQc4
+GWQe4
+DWPf4
+Q4
+"The Queen cannot move OVER another piece (of either color).
+Here the White Queen is blocked
+by the White Pawn on f4, and cannot reach g4 or h4.
+"
+P10
+U
+GWQd5
+GWQd6
+DBPd7
+"This Black Pawn blocks the White Queen as well.
+"
+P05
+"Like the King, the Queen may capture the Black Pawn by
+moving to the square it occupies (but no farther).
+"
+P10
+U
+W
+Sd4d7
+"Queen takes Pawn.
+"
+N3
+P05
+U
+C
+DWQd4
+; Diagonal Ghosts
+GWQa1
+GWQb2
+GWQc3
+GWQe5
+GWQf6
+GWQg7
+GWQh8
+GWQa7
+GWQb6
+GWQc5
+GWQe3
+GWQf2
+GWQg1
+; Horizontal Ghosts
+GWQa4
+GWQb4
+GWQc4
+GWQe4
+GWQf4
+GWQg4
+GWQh4
+; Vertical Ghosts
+GWQd1
+GWQd2
+GWQd3
+GWQd5
+GWQd6
+GWQd7
+GWQd8
+Q1
+"The Queen is a very powerful piece because of its ability to
+attack so many squares simultaneously.
+"
+P10
+U
+C
+Z
+;
+; How to move the Rook
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Rook ***
+"
+DWRa1
+DBRa8
+DWRh1
+DBRh8
+P05
+U
+C
+DWRd4
+GWRa4
+GWRb4
+GWRc4
+GWRe4
+GWRf4
+GWRg4
+GWRh4
+Q1
+"The Rook moves horizontally along ranks...
+"
+P05
+U
+W
+GWRd1
+GWRd2
+GWRd3
+GWRd5
+GWRd6
+GWRd7
+GWRd8
+Q2
+"and vertically along files.
+"
+P05
+U
+GWRa4
+GWRb4
+GWRc4
+GWRe4
+GWRf4
+GWRg4
+GWRh4
+D--d7
+D--d8
+DBPd6
+Q4
+"The Rook cannot move OVER another piece (of either color).
+Here the White Rook is blocked
+by the Black Pawn on d6, and cannot reach d7 or d8.
+"
+P10
+U
+"When blocked by an OPPONENT's piece, the Rook may capture it by
+moving to the square it occupies.
+"
+P05
+U
+D--d1
+D--d2
+D--d3
+D--a4
+D--b4
+D--c4
+D--e4
+D--f4
+D--g4
+D--h4
+D--d5
+D--a4
+D--b4
+D--c4
+D--e4
+D--f4
+D--g4
+D--h4
+Sd4d6
+"Rook takes Pawn.
+"
+N3
+P05
+U
+C
+DWRd4
+; Vertical Ghosts
+GWRd1
+GWRd2
+GWRd3
+GWRd5
+GWRd6
+GWRd7
+GWRd8
+; Horizontal Ghosts
+GWRa4
+GWRb4
+GWRc4
+GWRe4
+GWRf4
+GWRg4
+GWRh4
+"Like the Queen, the Rook is a strong piece because of its ability to
+attack several squares simultaneously.
+"
+P10
+U
+C
+Z
+;
+; How to move the Bishop
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Bishop ***
+"
+DWBc1
+DBBc8
+DWBf1
+DBBf8
+P05
+;
+; Draw diagonal ghosts
+;
+U
+C
+DWBd4
+GWBa1
+GWBb2
+GWBc3
+GWBe5
+GWBf6
+GWBg7
+GWBh8
+GWBa7
+GWBb6
+GWBc5
+GWBe3
+GWBf2
+GWBg1
+Q1
+"The Bishop moves along either diagonal.
+"
+P05
+"Notice that the Bishop always moves to squares of the same
+color as the one it starts on.
+"
+P05
+"This White Bishop is restricted to diagonals made up of DARK squares.
+"
+P05
+U
+W
+D--d4
+GBBb1
+GBBc2
+GBBd3
+DBBe4
+GBBf5
+GBBg6
+GBBh7
+GBBa8
+GBBb7
+GBBc6
+GBBd5
+GBBf3
+GBBg2
+GBBh1
+"This Black Bishop is restricted to diagonals made up of LIGHT squares.
+"
+P05
+U
+W
+D--d4
+D--e4
+DWBc1
+DBBc8
+DWBf1
+DBBf8
+Q5
+"Each side begins the game with two Bishops: one that moves on light-colored
+squares and one that moves on dark-colored squares.
+"
+P05
+U
+GWBb2
+GWBa3
+GWBd2
+GWBe3
+GWBf4
+GWBg5
+GWBh6
+Q1
+"White's DARK-diagonal Bishop
+"
+P05
+U
+W
+GWBg2
+GWBh3
+GWBe2
+GWBd3
+GWBc4
+GWBb5
+GWBa6
+"White's LIGHT-diagonal Bishop
+"
+P05
+U
+W
+GBBb7
+GBBa6
+GBBd7
+GBBe6
+GBBf5
+GBBg4
+GBBh3
+Q3
+"Black's LIGHT-diagonal Bishop
+"
+P05
+U
+W
+GBBg7
+GBBh6
+GBBe7
+GBBd6
+GBBc5
+GBBb4
+GBBa3
+"Black's DARK-diagonal Bishop
+"
+P05
+U
+W
+D--c1
+D--c8
+D--f8
+Q5
+"Like the Queen, the Bishop cannot move over another piece.
+"
+P05
+U
+GWBg2
+GWBh3
+GWBe2
+GWBd3
+DBRc4
+Q2
+"Here the Black Rook blocks the White Bishop from reaching b5 and a6.
+"
+P10
+U
+"As usual, if the blocking piece belongs to the opposing color, the
+Bishop can capture it simply by moving to that square.
+"
+P05
+U
+D--g2
+D--h3
+D--e2
+D--d3
+Sf1c4
+"Bishop takes Rook.
+"
+N3
+P05
+U
+C
+DWBd4
+GWBa1
+GWBb2
+GWBc3
+GWBe5
+GWBf6
+GWBg7
+GWBh8
+GWBa7
+GWBb6
+GWBc5
+GWBe3
+GWBf2
+GWBg1
+"Because it attacks fewer squares, and is restricted to light or dark
+squares, the Bishop is a weaker piece than the Queen or Rook.
+"
+P10
+U
+C
+Z
+;
+; How to move the Knight
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Knight ***
+"
+DWNb1
+DWNg1
+DBNb8
+DBNg8
+P05
+; draw ghosts
+;
+U
+C
+Q1
+DWNd4
+"The Knight makes L-shaped moves.  Two squares along a rank or file,
+and then one square at a right angle.
+"
+P10
+U
+"For example, two squares along the fourth rank...
+"
+Sd4b4
+P05
+"and one square at a right angle along the b-file.
+(We could also have moved to b5.)
+"
+Sb4b3
+P05
+"Or, two squares along a file...
+"
+Sb3b5
+P05
+"and then one square along the fifth rank.
+(We could also have moved to a5.)
+"
+Sb5c5
+P05
+D--c5
+"Here are all the squares that this Knight (on d4) can reach.
+"
+DWNd4
+GWNc6
+GWNe6
+GWNc2
+GWNe2
+GWNf5
+GWNf3
+GWNb5
+GWNb3
+P05
+U
+"Notice that the Knight always lands on a square of a different
+color from the one it starts on.
+"
+P10
+"The Knight is special: it jumps OVER pieces.
+"
+P05
+DBRc6
+DWPb3
+"As always, you cannot move the Knight to a square containing another
+piece of the same color (e.g. b3),
+"
+P10
+"But you can capture an opponent's piece that occupies the destination square.
+"
+P05
+W
+Kd4d6c6
+N3
+"Knight takes Rook.
+"
+P05
+U
+D--b3
+GWNd8
+GWNb8
+GWNb4
+GWNd4
+GWNa5
+GWNa7
+GWNe5
+GWNe7
+Q4
+"The Knight, like the Bishop, is considered to be less powerful than the
+Queen or Rook.  Even though it attacks fewer squares than a Bishop,
+its jumping ability makes it a valuable piece.
+"
+P10
+U
+C
+Z
+;
+; How to move the Pawn
+;
+X2
+IB
+C
+A1
+Q5
+"*** The Pawn ***
+"
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+DBPa7
+DBPb7
+DBPc7
+DBPd7
+DBPe7
+DBPf7
+DBPg7
+DBPh7
+P05
+U
+C
+D--d4
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+"All White Pawns start from the second rank.
+"
+P05
+C
+DBPa7
+DBPb7
+DBPc7
+DBPd7
+DBPe7
+DBPf7
+DBPg7
+DBPh7
+"All Black Pawns start from the seventh rank.
+"
+P05
+U
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+"Pawns always move towards the opposite side of the board.
+"
+P03
+U
+GWPe3
+GWPe4
+Q1
+"From its starting square, a Pawn may travel one or two squares forward.
+"
+P05
+U
+; ghost and slide e2-e4
+"Two squares...
+"
+Se2e4
+DWPe4
+D--e3
+P01
+U
+; ghost and slide d7-d6
+GBPd6
+GBPd5
+P01
+"One Square...
+"
+Sd7d6
+DBPd6
+D--d5
+P01
+U
+; ghost and slide f2-f3
+GWPf3
+GWPf4
+P01
+"One Square...
+"
+Sf2f3
+DWPf3
+D--f4
+P01
+U
+; ghost and slide e7-e5
+GBPe6
+GBPe5
+P01
+"Two squares...
+"
+Se7e5
+DBPe5
+D--e6
+P01
+"The first time a Pawn is moved, it's the player's choice.
+"
+P05
+GWPf4
+"A Pawn which has already moved, like the one on f3, may only move
+one square forward per move.
+"
+P07
+D--f4
+Sf3f4
+P02
+U
+C
+DBRe5
+DWPe4
+"Unlike other pieces, the Pawn cannot capture an opposing piece which lies
+in its path.
+"
+P05
+"Here, the White Pawn cannot capture the Black Rook.
+"
+P05
+U
+D--e4
+D--e5
+DBPf5
+DWQf4
+DWNe4
+DWRg4
+"A Pawn can only capture a piece which occupies one
+of the two squares diagonally in front of it.
+"
+P05
+U
+GWNe4
+GWRg4
+"Here, the Black Pawn can capture either the White Rook or White Knight...
+"
+P05
+"but not the White Queen.
+"
+P05
+U
+D--e4
+D--g4
+DWNe4
+DWRg4
+P01
+Sf5e4
+N3
+"Pawn takes Knight.
+"
+P05
+"Pawns are the least valuable piece.  But don't throw them away thoughtlessly.
+A single Pawn can sometimes mean the difference between winning and losing!
+"
+P10
+U
+C
+Z
+;
+; Summary of piece movement
+;
+X2
+IB
+C
+A1
+Q5
+"Here is a quick summary of what we've learned about the chess pieces.
+"
+P05
+"Important Rule #1: you may never move one of your pieces
+to a square occupied by another of your pieces.
+"
+P10
+U
+"Important Rule #2: If an OPPOSING piece occupies a square to which you
+can move, you can CAPTURE the opposing piece by moving to that square, and
+removing your opponent's piece from the board.
+"
+P15
+U
+DWKe4
+GWKd5
+GWKe5
+GWKf5
+GWKd4
+GWKf4
+GWKd3
+GWKe3
+GWKf3
+Q2
+"The King moves one square in any direction.
+"
+P10
+U
+W
+DWQd4
+; horizontal ghosts
+GWQa4
+GWQb4
+GWQc4
+GWQe4
+GWQf4
+GWQg4
+GWQh4
+; vertical ghosts
+GWQd1
+GWQd2
+GWQd3
+GWQd5
+GWQd6
+GWQd7
+GWQd8
+; diagonal ghosts
+GWQa1
+GWQb2
+GWQc3
+GWQe5
+GWQf6
+GWQg7
+GWQh8
+GWQa7
+GWQb6
+GWQc5
+GWQe3
+GWQf2
+GWQg1
+"The Queen moves along ranks, files, and diagonals.
+"
+P10
+U
+W
+DWRd4
+; horizontal ghosts
+GWRa4
+GWRb4
+GWRc4
+GWRe4
+GWRf4
+GWRg4
+GWRh4
+; vertical ghosts
+GWRd1
+GWRd2
+GWRd3
+GWRd5
+GWRd6
+GWRd7
+GWRd8
+"The Rook moves along ranks and files.
+"
+P10
+U
+W
+DWBd4
+; diagonal ghosts
+GWBa1
+GWBb2
+GWBc3
+GWBe5
+GWBf6
+GWBg7
+GWBh8
+GWBa7
+GWBb6
+GWBc5
+GWBe3
+GWBf2
+GWBg1
+"The Bishop moves along light or dark diagonals.
+"
+P10
+U
+W
+DWNd4
+; Knight ghosts
+;
+GWNc6
+GWNe6
+GWNc2
+GWNe2
+GWNf5
+GWNf3
+GWNb5
+GWNb3
+"The Knight makes L-shaped moves.  Two squares along a rank or file,
+and then one square at a right angle.
+"
+P10
+U
+W
+DWPd4
+GWPd5
+"Pawns normally move one square towards the opposite side of the board,
+except when capturing.
+"
+P05
+U
+D--d5
+GBPc5
+GBPe5
+"Pawns move forward, but capture DIAGONALLY!!  All the other pieces capture
+the same way they move.
+"
+P05
+U
+C
+DWPe2
+GWPe3
+GWPe4
+"The FIRST time it is moved, a Pawn may travel one or two squares forward.
+"
+P10
+U
+C
+W
+Q5
+"Except for special moves (castling, promotion, and en passant captures),
+that's all there is to know about moving the various chess pieces.
+"
+P10
+U
+C
+Z;
+; Check and Checkmate
+;
+X2
+IB
+C
+A1
+Q5
+"*** Check and Checkmate ***
+"
+P05
+DWKe3
+DBKe8
+DBRh5
+DBNb8
+DWQf1
+"If it is your turn to move, and your King could be captured on your opponent's
+next move, you are IN CHECK.
+"
+P10
+U
+Sf1b5
+Q5
+"Check
+"
+N2
+P03
+Q4
+"Here, the White Queen threatens to capture the Black King, so Black
+is in check.
+"
+P05
+Q5
+"If your King is in check, your very next move MUST remove the threat.
+"
+P05
+"There are 3 ways to remove a threat to your King.
+"
+P05
+"1) Move your King to a square which is not attacked by your opponent.
+"
+P03
+U
+N0
+Se8f8
+P02
+"Or...
+"
+N0
+Sf8e8
+P02
+"2) Capture the threatening piece with one of your pieces.
+"
+P03
+U
+N3
+Sh5b5
+P02
+Q2
+"Or...
+"
+N0
+Sb5h5
+DWQb5
+Q5
+P02
+"3) Block the threat by moving one of your other pieces.
+"
+P03
+U
+Kb8d8d7
+N0
+P02
+U
+N0
+Kd7d8b8
+P01
+"If you cannot do one of these 3 things, you are CHECKMATED and
+you have lost the game.
+"
+P05
+U
+C
+; White's Starting Position
+DWRa1
+DWNb1
+DWBc1
+DWQd1
+DWKe1
+DWBf1
+DWNg1
+DWRh1
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+; Black's Starting Position
+DBRa8
+DBNb8
+DBBc8
+DBQd8
+DBKe8
+DBBf8
+DBNg8
+DBRh8
+DBPa7
+DBPb7
+DBPc7
+DBPd7
+DBPe7
+DBPf7
+DBPg7
+DBPh7
+"Here is a very simple example (known as the Fool's Mate)...
+"
+P05
+U
+Sf2f3
+P02
+Se7e5
+P02
+Sg2g4
+P02
+N4
+Sd8h4
+Q1
+"Checkmate, Black wins!
+"
+P05
+"White cannot move his King out of check,
+capture Black's Queen, or block the
+Black Queen's attack on e1, so White is checkmated, and Black wins.
+"
+P10
+Q5
+"The object of the game is to checkmate your opponent, while avoiding
+being checkmated yourself.
+"
+P10
+U
+C
+DBKe8
+DBRh2
+DWKe1
+Q5
+"By the way: you are not allowed to move INTO check.
+In other words, you cannot make a move which allows your opponent
+to capture your King.
+"
+P10
+"For example, the White King cannot move to e2, d2, or f2.
+"
+P05
+"All those moves would allow Black's Rook to capture the
+White King immediately.
+White would be giving up by making such a move.
+"
+P10
+"If you are certain that you cannot win, you may RESIGN, rather
+than waiting for your opponent to checkmate you.
+This says to your opponent, "OK, you win!"
+"
+P10
+U
+C
+Z
+
+;
+; Stalemate
+;
+X2
+IB
+C
+A1
+Q5
+"*** Stalemate ***
+"
+P05
+"A STALEMATE occurs when the side to move is not in check,
+AND all possible moves place that side in check.
+"
+P10
+"Since it is illegal to move into check, the side to move cannot move,
+BUT the side to move is not in check, so it's not checkmate.
+"
+P10
+"The result: STALEMATE, which is considered to be a draw
+(neither side wins).
+"
+P05
+U
+DWKf3
+DWRg7
+DBKh2
+"Here's an example. (Assume it is White's turn to move.)
+"
+P08
+"White starts by making a bad move...
+"
+P03
+U
+Sg7g2
+N2
+"Check
+"
+P03
+"Black is in check, so he must move out of the way.
+"
+P05
+U
+Sh2h1
+P02
+"White now makes another bad move.
+"
+P03
+U
+Sf3f2
+P02
+"It is now Black's turn.  The only possible moves (King to h2 or g1)
+would put his King in check, which is illegal.
+"
+P10
+"Since Black cannot move, but is not in check...
+"
+P05
+N5
+"Stalemate
+"
+P05
+"Black was lucky.
+White SHOULD have won this game with King and Rook against King.
+"
+P05
+U
+C
+DWKf3
+DWRg7
+DBKh2
+"Here's how:
+"
+P03
+"White starts by moving:
+"
+P03
+U
+Sg7g3
+P02
+"Black's only legal move is:
+"
+P03
+U
+Sh2h1
+P02
+"White responds with:
+"
+P03
+U
+Sg3h3
+N2
+"Check
+"
+P02
+"Again, Black has only one legal move:
+"
+P03
+U
+Sh1g1
+P03
+"Here's the tricky part: White needs to "waste" one move so that Black will
+be forced into a desired position (this is called temporizing).
+"
+P10
+"White temporizes with:
+"
+P02
+Sh3h4
+P02
+"Black is forced to move:
+"
+P03
+U
+Sg1f1
+P02
+"And now White wins with:
+"
+P01
+U
+Sh4h1
+N4
+"Checkmate
+"
+P05
+"A good chess player must understand checkmate AND stalemate.
+In this example, Black avoided a certain loss because White did
+not see the possibility of a stalemate.
+"
+P10
+U
+C
+Z
+;
+; En Passant
+;
+X2
+IB
+C
+A1
+Q5
+"*** Special Moves: En Passant ***
+"
+P05
+"En Passant is a special type of capture move for Pawns ONLY.
+"
+P05
+U
+DWPe4
+GWP
+DBPf7
+"Suppose you have just moved your White Pawn to e5
+"
+P05
+U
+D--e5
+Se4e5
+P01
+"and your opponent replies by moving his Pawn two squares forward to f5,
+landing next to you.
+"
+P05
+U
+Sf7f5
+P01
+Q4
+"In this case, you are allowed to capture his Pawn EN PASSANT (in passing),
+by moving your Pawn diagonally behind him on your very next move.
+"
+P05
+U
+N3
+Se5f6
+Q1
+"Pawn takes Pawn, en passant
+"
+P01
+D--f5
+P03
+U
+C
+Q5
+"You may capture en passant ONLY when your opponent has moved his Pawn
+two squares forward on the previous move.
+"
+P05
+U
+D--f6
+DWPa2
+DBPb4
+"Here is an example of Black capturing White's Pawn en passant.
+"
+P05
+U
+Sa2a4
+P01
+"White has just moved his Pawn two squares forward.
+"
+P05
+U
+N3
+Sb4a3
+P01
+D--a4
+P01
+"And the Black Pawn captures on the very next move by moving diagonally
+behind the White Pawn.
+"
+P05
+C
+"This is a useful move when your opponent tries to sneak his Pawn past yours
+by moving two squares.
+"
+P05
+"But remember: if you wish to capture en passant, you must do so on your
+very next move.
+"
+P10
+U
+C
+Z
+;
+; Castling
+;
+X2
+IB
+C
+A1
+Q5
+"*** Special Moves: Castling ***
+"
+P05
+; draw King and Rooks
+DWKe1
+DWRa1
+DWRh1
+"Castling is a special move involving the King and either Rook.
+"
+P05
+; show King destination squares
+GWKg1
+GWKc1
+"The basic move involves moving the King two squares towards the Rook.
+"
+P05
+U
+; erase Queenside destination, and slide Kingside
+D--c1
+Se1g1
+DWKg1
+P01
+"The Rook is then placed on the other side of the King.
+"
+Sh1f1
+P05
+D--f1
+D--g1
+DWKe1
+DWRh1
+"Castling may be performed with either Rook.
+"
+; show King destination squares
+GWKg1
+GWKc1
+P03
+U
+D--g1
+Se1c1
+DWKc1
+Sa1d1
+P02
+C
+DWKe1
+DWRa1
+DWRh1
+GWKg1
+"If the King is moved towards the nearer Rook (on the King's side of the board)...
+"
+P05
+U
+D--g1
+Se1g1
+Sh1f1
+P01
+"It is called CASTLING KINGSIDE (written O-O)
+"
+P05
+U
+D--f1
+D--g1
+GWKc1
+DWKe1
+DWRh1
+"If the King is moved towards the other Rook (on the Queen's side of the board)...
+"
+P05
+U
+D--c1
+Se1c1
+Sa1d1
+P01
+"It is called CASTLING QUEENSIDE (written O-O-O)
+"
+P05
+U
+D--c1
+D--d1
+DWKe1
+DWRa1
+"To be legal, the King and Rook must have never moved from their starting
+squares...
+"
+P05
+"The squares between the King and Rook must be unoccupied...
+"
+P05
+"The King cannot be in check...
+"
+P05
+"And the square which the King passes over cannot be under attack.
+Of course, the King can never be moved INTO check, so the destination can't be
+under attack either.
+"
+P10
+"It is usually a good idea to castle early in the game, as it protects
+the King and gives the Rook a chance to control the center files.
+"
+P10
+U
+C
+Z
+;
+; Promotion
+;
+X2
+IB
+C
+A1
+Q5
+"*** Special Moves: Promotion ***
+"
+P05
+DWKa1
+DWPe2
+DBKb8
+DBPa7
+"When a Pawn reaches the opposite side of the Board...
+"
+P05
+U
+Se2e4
+P01
+Sa7a5
+P01
+Se4e5
+P01
+Sb8b7
+P01
+Se5e6
+P01
+Sb7b6
+P01
+Se6e7
+P01
+Sa5a4
+P01
+Se7e8
+"It must be PROMOTED to a Queen, Rook, Bishop, or Knight.
+"
+P01
+N1
+DWQe8
+P05
+"Normally, you will choose to promote your Pawn to a Queen.
+"
+P05
+U
+C
+DBPa7
+DBKh7
+DBPh6
+DWRg8
+DWBe6
+DWPf7
+DWKe1
+"Promoting a pawn to a Piece other than a Queen is referred to
+as UNDERPROMOTION.
+"
+P05
+"Here, White underpromotes a Pawn to a Knight to achieve Checkmate.
+"
+P05
+Sf7f8
+P01
+DWNf8
+N4
+"Checkmate.
+"
+P05
+U
+C
+DWKe1
+DBKe8
+DBPa4
+"Because of promotion, an opponent's Pawn which is unopposed is a
+dangerous threat.
+"
+P05
+"Here, the White King is too far away to capture the Black Pawn.
+"
+P05
+U
+Sa4a3
+P01
+Se1d1
+P01
+Sa3a2
+P01
+Sd1c1
+P01
+Sa2a1
+N1
+P01
+DBQa1
+"Black can now win the game with ease.
+"
+P05
+"Remember: only Pawns can be promoted.
+This makes them more valuable than they might seem at first glance.
+A promotion can instantly change the balance of power in a game.
+"
+P10
+"By the way: You may promote a Pawn to a Queen even if you already have one
+(or more) on the board.
+It is possible (but unlikely in the extreme)
+to promote all eight of your Pawns to other pieces.
+"
+P10
+U
+C
+Z
+;
+; Algebraic Notation
+;
+X2
+IB
+C
+A1
+Q5
+"*** Algebraic Notation ***
+"
+P05
+"Algebraic Notation is the generally accepted method of writing down
+the moves in a chess game.
+"
+P05
+"It is very easy to learn, and will increase your enjoyment of Chess.
+"
+P05
+"To describe a move in algebraic notation, start by writing down the
+letter of the piece that is moving.
+"
+P05
+DWKe3
+"K for a King
+"
+P05
+DWQe3
+"Q for a Queen
+"
+P05
+DWRe3
+"R for a Rook
+"
+P05
+DWBe3
+"B for a Bishop
+"
+P05
+DWNe3
+"N for a Knight
+"
+P05
+DWPe3
+"If a Pawn is moving, don't write down anything.
+"
+P05
+"Then, write down the file (a - h) and rank (1 - 8) of
+that piece's destination square.
+"
+P10
+C
+; White's Starting Position
+DWRa1
+DWNb1
+DWBc1
+DWQd1
+DWKe1
+DWBf1
+DWNg1
+DWRh1
+DWPa2
+DWPb2
+DWPc2
+DWPd2
+DWPe2
+DWPf2
+DWPg2
+DWPh2
+; Black's Starting Position
+DBRa8
+DBNb8
+DBBc8
+DBQd8
+DBKe8
+DBBf8
+DBNg8
+DBRh8
+DBPa7
+DBPb7
+DBPc7
+DBPd7
+DBPe7
+DBPf7
+DBPg7
+DBPh7
+"Let's see how this might work for the first few moves of a real game
+"
+P05
+"White opens by moving his Pawn to square e4, so we write
+"
+P05
+U
+Se2e4
+"e4
+"
+P05
+"Black responds by moving his Pawn to square e5, so we write
+"
+P05
+U
+Se7e5
+"e5
+"
+P05
+"White moves his Knight to square f3, so we write
+"
+P05
+U
+Kg1g3f3
+"Nf3
+"
+P05
+"and Black moves his Knight to square c6, so we write
+"
+P05
+U
+Kb8b6c6
+"Nc6
+"
+P05
+" White attacks by moving his Bishop to b5, so we write
+"
+P05
+U
+Sf1b5
+"Bb5
+"
+P05
+"Black threatens that Bishop by moving his Pawn from a7 to a6
+"
+P05
+U
+Sa7a6
+"a6
+"
+P05
+"And White moves the Bishop out of harm's way
+"
+P05
+U
+Sb5a4
+"Ba4
+"
+P05
+"Black takes this opportunity to develop his other Knight
+"
+P05
+U
+Kg8g6f6
+"Nf6
+"
+P05
+"Algebraic notation uses an 'x' to indicate a capture.
+"
+P05
+"For example, using the White Bishop to capture the Black Knight
+on square c6 would be written as
+"
+P10
+U
+Sa4c6
+N3
+"Bxc6
+"
+P05
+"When a Pawn makes a capture, we also write down the file it starts on...
+"
+P05
+U
+Sd7c6
+N3
+"dxc6 (the Pawn started on the d-file)
+"
+P05
+"Going back to our game, White moves his d-Pawn one square forward...
+"
+P05
+U
+Sd2d3
+"d3
+"
+P05
+"And Black responds by giving check with his Bishop...
+"
+P05
+U
+Sf8b4
+N2
+"Check
+"
+P05
+"When a move places the other side in check, we put a '+' at the end.
+So this move would be written as...
+"
+P05
+"Bb4+
+"
+P05
+"Sometimes, identical pieces can move to the same square.
+"
+P05
+U
+GWNd2
+"For example, White can remove the threat to his King by moving a Knight
+to d2
+"
+P05
+"Unfortunately, Nd2 doesn't tell us which White Knight was moved.
+(Was it the Knight on f3 or the Knight on b1?)
+"
+P10
+"When identical pieces can move to the same square, algebraic notation
+tells us to do the following...
+"
+P10
+"If both pieces start on the SAME file, put the staring rank (1 - 8) right
+after the name of the piece.
+"
+P10
+"Otherwise, put the starting file (a - h) right after the name of the piece.
+"
+P10
+"In this case, the two White Knights are on DIFFERENT files, so we write
+"
+P05
+U
+W
+Kf3d3d2
+"Nfd2 (starting file after the piece name)
+"
+P05
+"Castling Kingside is written O-O.  Castling Queenside is written as O-O-O
+"
+P05
+U
+Se8g8
+Sh8f8
+"O-O (Black castles kingside)
+"
+P05
+U
+Se1g1
+Sh1f1
+"O-O (White castles kingside)
+"
+P10
+U
+C
+DBKc8
+DWKe1
+DWPe7
+DWRh1
+DWRa6
+"When a promotion occurs, we write the letter of the new piece at the end
+of the move
+"
+P05
+U
+Se7e8
+P01
+N2
+DWQe8
+"e8Q+ (the new Queen checks the Black King)
+"
+P05
+U
+Sc8c7
+"Kc7
+"
+P05
+"When a move causes checkmate, we write an extra '+' at the end of it.
+"
+P05
+U
+Sh1h7
+N4
+"Rh7++
+"
+P10
+"Now you have all the information you need to read and understand chess games
+which have been recorded using Algebraic Notation.  Enjoy!!
+"
+P10
+U
+C
+Z
